@@ -40,10 +40,12 @@ class MNISTLayout(MNIST):
 
         self.threshold = threshold
         self.data = [self.img_to_set(img) for img in self.data]
+        
         self.max_length = max_length
         if self.max_length is None:
             self.max_length = max([len(x) for x in self.data]) + 2  # bos, eos tokens
         self.transform = Padding(self.max_length, self.vocab_size)
+        
 
     def __len__(self):
         return len(self.data)

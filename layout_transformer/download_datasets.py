@@ -36,6 +36,3 @@ else:
     print(f"Test images shape: {test_images.shape}")
     print(f"Test labels shape: {test_labels.shape}")
 
-# You can now use the dataset as train_data and test_data
-print(f"Training data size: {len(train_data)}")
-print(f"Test data size: {len(test_data)}")

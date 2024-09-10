@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/main.py", line 79, in <module>
+    trainer.train()
+  File "/home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/trainer.py", line 147, in train
+    run_epoch('train')
+  File "/home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/trainer.py", line 87, in run_epoch
+    print("heree", data.shape)
+                   ^^^^^^^^^^
+AttributeError: 'MNISTLayout' object has no attribute 'shape'

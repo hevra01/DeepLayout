@@ -1,0 +1,211 @@
+{
+    "os": "Linux-6.8.0-40-generic-x86_64-with-glibc2.35",
+    "python": "3.12.5",
+    "heartbeatAt": "2024-09-09T13:45:39.034951",
+    "startedAt": "2024-09-09T13:45:38.631133",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--data_dir",
+        "/home/hepe00001/Desktop/neuro_explicit/generative_diffusion/datasets/mnist_2"
+    ],
+    "state": "running",
+    "program": "/home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "layout_transformer/main.py",
+    "git": {
+        "remote": "git@github.com:kampta/DeepLayout.git",
+        "commit": "f2004c5d4e43811e14d3454f1829fc724a49df9e"
+    },
+    "email": "hevrapetekkaya01@gmail.com",
+    "root": "/home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout",
+    "host": "lenny.cs.uni-saarland.de",
+    "username": "hepe00001",
+    "executable": "/home/hepe00001/anaconda3/envs/layout/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 4140.9451874999995,
+        "min": 2200.0,
+        "max": 3400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4174.194,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.203,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.144,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.126,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.171,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.205,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.165,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.223,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.203,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.189,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.25,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.228,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.187,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.198,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.175,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.197,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.147,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.256,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.182,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.263,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.234,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.227,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.225,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.191,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.154,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.122,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.206,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.216,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.167,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.209,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.192,
+            "min": 2200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 4174.171,
+            "min": 2200.0,
+            "max": 3400.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 878.620922088623,
+            "used": 289.43226623535156
+        }
+    },
+    "gpu": "NVIDIA RTX A4000",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A4000",
+            "memory_total": 17171480576
+        }
+    ],
+    "memory": {
+        "total": 62.727294921875
+    }
+}

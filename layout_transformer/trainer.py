@@ -73,6 +73,7 @@ class Trainer:
     def train(self):
         model, config = self.model, self.config
         raw_model = model.module if hasattr(self.model, "module") else model
+
         optimizer = raw_model.configure_optimizers(config)
         pad_token = self.train_dataset.vocab_size - 1
 
@@ -83,11 +84,12 @@ class Trainer:
             loader = DataLoader(data, shuffle=True, pin_memory=True,
                                 batch_size=config.batch_size,
                                 num_workers=config.num_workers)
-
+            
+            
             losses = []
             pbar = tqdm(enumerate(loader), total=len(loader)) if is_train else enumerate(loader)
             for it, (x, y) in pbar:
-
+                
                 if epoch == 0 and not is_train:
                     self.fixed_x = x[:min(4, len(x))]
                     self.fixed_y = y[:min(4, len(y))]
@@ -95,7 +97,6 @@ class Trainer:
                 # place data on the correct device
                 x = x.to(self.device)
                 y = y.to(self.device)
-
                 # forward the model
                 with torch.set_grad_enabled(is_train):
                     # import ipdb; ipdb.set_trace()
@@ -104,7 +105,6 @@ class Trainer:
                     losses.append(loss.item())
 
                 if is_train:
-
                     # backprop and update the parameters
                     model.zero_grad()
                     loss.backward()
@@ -142,6 +142,7 @@ class Trainer:
 
         best_loss = float('inf')
         for epoch in range(config.max_epochs):
+       
             run_epoch('train')
             if self.test_dataset is not None:
                 with torch.no_grad():
@@ -152,22 +153,40 @@ class Trainer:
             if self.config.ckpt_dir is not None and good_model:
                 best_loss = test_loss
                 self.save_checkpoint()
-
+        
+            
             # sample from the model
+
             if self.config.samples_dir is not None and (epoch+1) % self.config.sample_every == 0:
                 # import ipdb; ipdb.set_trace()
                 # inputs
                 layouts = self.fixed_x.detach().cpu().numpy()
                 input_layouts = [self.train_dataset.render(layout) for layout in layouts]
+                
                 # for i, layout in enumerate(layouts):
                 #     layout = self.train_dataset.render(layout)
                 #     layout.save(os.path.join(self.config.samples_dir, f'input_{epoch:02d}_{i:02d}.png'))
 
                 # reconstruction
                 x_cond = self.fixed_x.to(self.device)
+
+                # The logits have a shape of [batch_size, sequence_length, vocab_size]. 
+                # For example, for a batch of 4 sequences, each with 352 tokens, and a 
+                # vocab size of, say, 10,000, the shape of logits will be [4, 352, 10000].
                 logits, _ = model(x_cond)
+
+                # Here, the logits are passed through a softmax function to convert them 
+                # into a probability distribution. 
                 probs = F.softmax(logits, dim=-1)
+
+                # y represents the predicted tokens at each position in the sequence. 
+                # If you have a batch of 4 sequences, each with 352 tokens, y will 
+                # have the shape [4, 352, 1], where the last dimension represents 
+                # the predicted token for each position.
                 _, y = torch.topk(probs, k=1, dim=-1)
+
+                # This concatenates the BOS token (from x_cond[:, :1]) with the model’s predicted
+                # tokens (from y[:, :, 0]), which represent the entire sequence that the model has generated.
                 layouts = torch.cat((x_cond[:, :1], y[:, :, 0]), dim=1).detach().cpu().numpy()
                 recon_layouts = [self.train_dataset.render(layout) for layout in layouts]
                 # for i, layout in enumerate(layouts):

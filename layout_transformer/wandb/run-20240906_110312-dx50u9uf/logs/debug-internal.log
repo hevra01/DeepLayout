@@ -1,0 +1,186 @@
+2024-09-06 11:03:12,925 INFO    StreamThr :283523 [internal.py:wandb_internal():85] W&B internal server running at pid: 283523, started at: 2024-09-06 11:03:12.925117
+2024-09-06 11:03:12,926 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: status
+2024-09-06 11:03:12,927 INFO    WriterThread:283523 [datastore.py:open_for_write():87] open: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/run-dx50u9uf.wandb
+2024-09-06 11:03:12,927 DEBUG   SenderThread:283523 [sender.py:send():391] send: header
+2024-09-06 11:03:12,928 DEBUG   SenderThread:283523 [sender.py:send():391] send: run
+2024-09-06 11:03:13,300 INFO    SenderThread:283523 [dir_watcher.py:__init__():211] watching files in: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files
+2024-09-06 11:03:13,300 INFO    SenderThread:283523 [sender.py:_start_run_threads():1200] run started: dx50u9uf with start time 1725613392.924663
+2024-09-06 11:03:13,309 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: run_start
+2024-09-06 11:03:13,317 ERROR   HandlerThread:283523 [gpu.py:is_available():381] Error initializing NVML: RM has detected an NVML/RM version mismatch.
+2024-09-06 11:03:13,318 DEBUG   HandlerThread:283523 [system_info.py:__init__():26] System info init
+2024-09-06 11:03:13,318 DEBUG   HandlerThread:283523 [system_info.py:__init__():41] System info init done
+2024-09-06 11:03:13,318 INFO    HandlerThread:283523 [system_monitor.py:start():194] Starting system monitor
+2024-09-06 11:03:13,318 INFO    SystemMonitor:283523 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-06 11:03:13,318 INFO    HandlerThread:283523 [system_monitor.py:probe():214] Collecting system info
+2024-09-06 11:03:13,318 INFO    SystemMonitor:283523 [interfaces.py:start():188] Started cpu monitoring
+2024-09-06 11:03:13,319 INFO    SystemMonitor:283523 [interfaces.py:start():188] Started disk monitoring
+2024-09-06 11:03:13,319 INFO    SystemMonitor:283523 [interfaces.py:start():188] Started memory monitoring
+2024-09-06 11:03:13,319 INFO    SystemMonitor:283523 [interfaces.py:start():188] Started network monitoring
+2024-09-06 11:03:13,328 DEBUG   HandlerThread:283523 [system_info.py:probe():152] Probing system
+2024-09-06 11:03:13,330 DEBUG   HandlerThread:283523 [system_info.py:_probe_git():137] Probing git
+2024-09-06 11:03:13,335 DEBUG   HandlerThread:283523 [system_info.py:_probe_git():145] Probing git done
+2024-09-06 11:03:13,335 DEBUG   HandlerThread:283523 [system_info.py:probe():200] Probing system done
+2024-09-06 11:03:13,335 DEBUG   HandlerThread:283523 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-40-generic-x86_64-with-glibc2.35', 'python': '3.12.5', 'heartbeatAt': '2024-09-06T09:03:13.329039', 'startedAt': '2024-09-06T09:03:12.922492', 'docker': None, 'cuda': None, 'args': ('--data_dir', '/home/hepe00001/Desktop/neuro_explicit/generative_diffusion/datasets/MNIST_2', '--threshold', '1', '--exp', 'mnist_threshold_1'), 'state': 'running', 'program': '/home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/main.py', 'codePathLocal': 'main.py', 'codePath': 'layout_transformer/main.py', 'git': {'remote': 'git@github.com:kampta/DeepLayout.git', 'commit': 'f2004c5d4e43811e14d3454f1829fc724a49df9e'}, 'email': 'hevrapetekkaya01@gmail.com', 'root': '/home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout', 'host': 'lenny.cs.uni-saarland.de', 'username': 'hepe00001', 'executable': '/home/hepe00001/anaconda3/envs/layout/bin/python', 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 2998.37984375, 'min': 2200.0, 'max': 3400.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 2863.777, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 3598.844, 'min': 2200.0, 'max': 3400.0}, {'current': 3593.951, 'min': 2200.0, 'max': 3400.0}, {'current': 3701.318, 'min': 2200.0, 'max': 3400.0}, {'current': 3594.906, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 3599.267, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 3591.831, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 3691.644, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 3400.0, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3400.0}, {'current': 3699.613, 'min': 2200.0, 'max': 3400.0}, {'current': 4625.224, 'min': 2200.0, 'max': 3400.0}, {'current': 3700.89, 'min': 2200.0, 'max': 3400.0}, {'current': 3711.708, 'min': 2200.0, 'max': 3400.0}], 'disk': {'/': {'total': 878.620922088623, 'used': 243.62274169921875}}, 'memory': {'total': 62.72730255126953}}
+2024-09-06 11:03:13,336 INFO    HandlerThread:283523 [system_monitor.py:probe():224] Finished collecting system info
+2024-09-06 11:03:13,336 INFO    HandlerThread:283523 [system_monitor.py:probe():227] Publishing system info
+2024-09-06 11:03:13,336 DEBUG   HandlerThread:283523 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-09-06 11:03:14,301 INFO    Thread-12 :283523 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/conda-environment.yaml
+2024-09-06 11:03:14,502 DEBUG   HandlerThread:283523 [system_info.py:_save_conda():224] Saving conda packages done
+2024-09-06 11:03:14,502 INFO    HandlerThread:283523 [system_monitor.py:probe():229] Finished publishing system info
+2024-09-06 11:03:14,504 DEBUG   SenderThread:283523 [sender.py:send():391] send: files
+2024-09-06 11:03:14,504 INFO    SenderThread:283523 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-09-06 11:03:14,538 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: python_packages
+2024-09-06 11:03:14,539 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: python_packages
+2024-09-06 11:03:14,539 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-06 11:03:14,539 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: stop_status
+2024-09-06 11:03:14,540 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-06 11:03:14,718 DEBUG   SenderThread:283523 [sender.py:send():391] send: telemetry
+2024-09-06 11:03:14,719 DEBUG   SenderThread:283523 [sender.py:send():391] send: config
+2024-09-06 11:03:14,720 DEBUG   SenderThread:283523 [sender.py:send():391] send: exit
+2024-09-06 11:03:14,720 INFO    SenderThread:283523 [sender.py:send_exit():598] handling exit code: 0
+2024-09-06 11:03:14,720 INFO    SenderThread:283523 [sender.py:send_exit():600] handling runtime: 1
+2024-09-06 11:03:14,720 INFO    SenderThread:283523 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-06 11:03:14,720 INFO    SenderThread:283523 [sender.py:send_exit():606] send defer
+2024-09-06 11:03:14,721 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: defer
+2024-09-06 11:03:14,721 INFO    HandlerThread:283523 [handler.py:handle_request_defer():184] handle defer: 0
+2024-09-06 11:03:14,721 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: defer
+2024-09-06 11:03:14,721 INFO    SenderThread:283523 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-09-06 11:03:14,721 INFO    SenderThread:283523 [sender.py:transition_state():626] send defer: 1
+2024-09-06 11:03:14,721 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: defer
+2024-09-06 11:03:14,721 INFO    HandlerThread:283523 [handler.py:handle_request_defer():184] handle defer: 1
+2024-09-06 11:03:14,721 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: defer
+2024-09-06 11:03:14,721 INFO    SenderThread:283523 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-09-06 11:03:14,721 INFO    SenderThread:283523 [sender.py:transition_state():626] send defer: 2
+2024-09-06 11:03:14,721 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: defer
+2024-09-06 11:03:14,721 INFO    HandlerThread:283523 [handler.py:handle_request_defer():184] handle defer: 2
+2024-09-06 11:03:14,721 INFO    HandlerThread:283523 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-06 11:03:14,722 DEBUG   SystemMonitor:283523 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-06 11:03:14,722 DEBUG   SystemMonitor:283523 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-06 11:03:14,722 DEBUG   SystemMonitor:283523 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-06 11:03:14,722 INFO    HandlerThread:283523 [interfaces.py:finish():200] Joined cpu monitor
+2024-09-06 11:03:14,722 INFO    HandlerThread:283523 [interfaces.py:finish():200] Joined disk monitor
+2024-09-06 11:03:14,722 INFO    HandlerThread:283523 [interfaces.py:finish():200] Joined memory monitor
+2024-09-06 11:03:14,722 INFO    HandlerThread:283523 [interfaces.py:finish():200] Joined network monitor
+2024-09-06 11:03:14,722 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: defer
+2024-09-06 11:03:14,722 INFO    SenderThread:283523 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-09-06 11:03:14,722 INFO    SenderThread:283523 [sender.py:transition_state():626] send defer: 3
+2024-09-06 11:03:14,723 DEBUG   SenderThread:283523 [sender.py:send():391] send: stats
+2024-09-06 11:03:14,723 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: defer
+2024-09-06 11:03:14,723 INFO    HandlerThread:283523 [handler.py:handle_request_defer():184] handle defer: 3
+2024-09-06 11:03:14,723 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: defer
+2024-09-06 11:03:14,723 INFO    SenderThread:283523 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-09-06 11:03:14,723 INFO    SenderThread:283523 [sender.py:transition_state():626] send defer: 4
+2024-09-06 11:03:14,723 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: defer
+2024-09-06 11:03:14,723 INFO    HandlerThread:283523 [handler.py:handle_request_defer():184] handle defer: 4
+2024-09-06 11:03:14,723 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: defer
+2024-09-06 11:03:14,723 INFO    SenderThread:283523 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-09-06 11:03:14,723 INFO    SenderThread:283523 [sender.py:transition_state():626] send defer: 5
+2024-09-06 11:03:14,723 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: defer
+2024-09-06 11:03:14,723 INFO    HandlerThread:283523 [handler.py:handle_request_defer():184] handle defer: 5
+2024-09-06 11:03:14,723 DEBUG   SenderThread:283523 [sender.py:send():391] send: summary
+2024-09-06 11:03:14,724 INFO    SenderThread:283523 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-06 11:03:14,724 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: defer
+2024-09-06 11:03:14,724 INFO    SenderThread:283523 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-09-06 11:03:14,724 INFO    SenderThread:283523 [sender.py:transition_state():626] send defer: 6
+2024-09-06 11:03:14,724 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: defer
+2024-09-06 11:03:14,724 INFO    HandlerThread:283523 [handler.py:handle_request_defer():184] handle defer: 6
+2024-09-06 11:03:14,724 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: defer
+2024-09-06 11:03:14,724 INFO    SenderThread:283523 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-09-06 11:03:14,727 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: status_report
+2024-09-06 11:03:15,114 INFO    wandb-upload_0:283523 [upload_job.py:push():130] Uploaded file /tmp/tmpazpnphzxwandb/tctfdoh8-wandb-metadata.json
+2024-09-06 11:03:15,126 INFO    SenderThread:283523 [sender.py:transition_state():626] send defer: 7
+2024-09-06 11:03:15,127 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: defer
+2024-09-06 11:03:15,127 INFO    HandlerThread:283523 [handler.py:handle_request_defer():184] handle defer: 7
+2024-09-06 11:03:15,127 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: defer
+2024-09-06 11:03:15,127 INFO    SenderThread:283523 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-09-06 11:03:15,301 INFO    Thread-12 :283523 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/config.yaml
+2024-09-06 11:03:15,301 INFO    Thread-12 :283523 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/conda-environment.yaml
+2024-09-06 11:03:15,301 INFO    Thread-12 :283523 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/output.log
+2024-09-06 11:03:15,301 INFO    Thread-12 :283523 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/requirements.txt
+2024-09-06 11:03:15,301 INFO    Thread-12 :283523 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/wandb-summary.json
+2024-09-06 11:03:15,301 INFO    Thread-12 :283523 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/wandb-metadata.json
+2024-09-06 11:03:15,582 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-06 11:03:17,302 INFO    Thread-12 :283523 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/output.log
+2024-09-06 11:03:18,723 INFO    SenderThread:283523 [sender.py:transition_state():626] send defer: 8
+2024-09-06 11:03:18,723 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: poll_exit
+2024-09-06 11:03:18,723 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: defer
+2024-09-06 11:03:18,723 INFO    HandlerThread:283523 [handler.py:handle_request_defer():184] handle defer: 8
+2024-09-06 11:03:18,723 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: defer
+2024-09-06 11:03:18,723 INFO    SenderThread:283523 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-09-06 11:03:18,723 INFO    SenderThread:283523 [job_builder.py:build():443] Attempting to build job artifact
+2024-09-06 11:03:18,724 INFO    SenderThread:283523 [job_builder.py:_get_source_type():572] is repo sourced job
+2024-09-06 11:03:18,734 INFO    SenderThread:283523 [job_builder.py:build():548] adding wandb-job metadata file
+2024-09-06 11:03:18,735 INFO    SenderThread:283523 [sender.py:transition_state():626] send defer: 9
+2024-09-06 11:03:18,735 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: defer
+2024-09-06 11:03:18,735 INFO    HandlerThread:283523 [handler.py:handle_request_defer():184] handle defer: 9
+2024-09-06 11:03:18,735 DEBUG   SenderThread:283523 [sender.py:send():391] send: artifact
+2024-09-06 11:03:19,302 INFO    Thread-12 :283523 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/output.log
+2024-09-06 11:03:19,457 INFO    SenderThread:283523 [sender.py:send_artifact():1549] sent artifact job-git_github.com_kampta_DeepLayout.git_layout_transformer_main.py - {'id': 'QXJ0aWZhY3Q6MTE4MzYyOTg3MQ==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQyMDY1MzMxNg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTE4MzYyOTg3MQ==', 'versionIndex': 1}}}
+2024-09-06 11:03:19,458 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: defer
+2024-09-06 11:03:19,458 INFO    SenderThread:283523 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-09-06 11:03:19,458 INFO    SenderThread:283523 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-09-06 11:03:19,584 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-06 11:03:20,304 INFO    SenderThread:283523 [dir_watcher.py:finish():388] scan: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files
+2024-09-06 11:03:20,304 INFO    SenderThread:283523 [dir_watcher.py:finish():402] scan save: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/conda-environment.yaml conda-environment.yaml
+2024-09-06 11:03:20,304 INFO    SenderThread:283523 [dir_watcher.py:finish():402] scan save: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/requirements.txt requirements.txt
+2024-09-06 11:03:20,304 INFO    SenderThread:283523 [dir_watcher.py:finish():402] scan save: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/wandb-summary.json wandb-summary.json
+2024-09-06 11:03:20,308 INFO    SenderThread:283523 [dir_watcher.py:finish():402] scan save: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/output.log output.log
+2024-09-06 11:03:20,309 INFO    SenderThread:283523 [dir_watcher.py:finish():402] scan save: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/config.yaml config.yaml
+2024-09-06 11:03:20,310 INFO    SenderThread:283523 [dir_watcher.py:finish():402] scan save: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/wandb-metadata.json wandb-metadata.json
+2024-09-06 11:03:20,311 INFO    SenderThread:283523 [sender.py:transition_state():626] send defer: 10
+2024-09-06 11:03:20,311 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: poll_exit
+2024-09-06 11:03:20,311 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: defer
+2024-09-06 11:03:20,311 INFO    HandlerThread:283523 [handler.py:handle_request_defer():184] handle defer: 10
+2024-09-06 11:03:20,311 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: defer
+2024-09-06 11:03:20,311 INFO    SenderThread:283523 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-09-06 11:03:20,311 INFO    SenderThread:283523 [file_pusher.py:finish():169] shutting down file pusher
+2024-09-06 11:03:20,584 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-06 11:03:20,584 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: poll_exit
+2024-09-06 11:03:20,711 INFO    wandb-upload_1:283523 [upload_job.py:push():130] Uploaded file /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/requirements.txt
+2024-09-06 11:03:20,729 INFO    wandb-upload_2:283523 [upload_job.py:push():130] Uploaded file /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/wandb-summary.json
+2024-09-06 11:03:20,789 INFO    wandb-upload_3:283523 [upload_job.py:push():130] Uploaded file /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/output.log
+2024-09-06 11:03:20,793 INFO    wandb-upload_0:283523 [upload_job.py:push():130] Uploaded file /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/conda-environment.yaml
+2024-09-06 11:03:20,865 INFO    wandb-upload_4:283523 [upload_job.py:push():130] Uploaded file /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/files/config.yaml
+2024-09-06 11:03:21,065 INFO    Thread-11 (_thread_body):283523 [sender.py:transition_state():626] send defer: 11
+2024-09-06 11:03:21,065 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: defer
+2024-09-06 11:03:21,065 INFO    HandlerThread:283523 [handler.py:handle_request_defer():184] handle defer: 11
+2024-09-06 11:03:21,065 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: defer
+2024-09-06 11:03:21,066 INFO    SenderThread:283523 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-09-06 11:03:21,066 INFO    SenderThread:283523 [file_pusher.py:join():175] waiting for file pusher
+2024-09-06 11:03:21,066 INFO    SenderThread:283523 [sender.py:transition_state():626] send defer: 12
+2024-09-06 11:03:21,066 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: defer
+2024-09-06 11:03:21,066 INFO    HandlerThread:283523 [handler.py:handle_request_defer():184] handle defer: 12
+2024-09-06 11:03:21,066 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: defer
+2024-09-06 11:03:21,066 INFO    SenderThread:283523 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-09-06 11:03:21,066 INFO    SenderThread:283523 [file_stream.py:finish():601] file stream finish called
+2024-09-06 11:03:21,204 INFO    SenderThread:283523 [file_stream.py:finish():605] file stream finish is done
+2024-09-06 11:03:21,204 INFO    SenderThread:283523 [sender.py:transition_state():626] send defer: 13
+2024-09-06 11:03:21,205 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: defer
+2024-09-06 11:03:21,205 INFO    HandlerThread:283523 [handler.py:handle_request_defer():184] handle defer: 13
+2024-09-06 11:03:21,205 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: defer
+2024-09-06 11:03:21,205 INFO    SenderThread:283523 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-09-06 11:03:21,205 INFO    SenderThread:283523 [sender.py:transition_state():626] send defer: 14
+2024-09-06 11:03:21,205 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: defer
+2024-09-06 11:03:21,205 INFO    HandlerThread:283523 [handler.py:handle_request_defer():184] handle defer: 14
+2024-09-06 11:03:21,205 DEBUG   SenderThread:283523 [sender.py:send():391] send: final
+2024-09-06 11:03:21,205 DEBUG   SenderThread:283523 [sender.py:send():391] send: footer
+2024-09-06 11:03:21,205 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: defer
+2024-09-06 11:03:21,205 INFO    SenderThread:283523 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-09-06 11:03:21,205 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-06 11:03:21,206 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: poll_exit
+2024-09-06 11:03:21,206 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: server_info
+2024-09-06 11:03:21,206 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: server_info
+2024-09-06 11:03:21,207 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-06 11:03:21,208 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: get_summary
+2024-09-06 11:03:21,208 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: sampled_history
+2024-09-06 11:03:21,208 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-06 11:03:21,336 DEBUG   SenderThread:283523 [sender.py:send_request():418] send_request: poll_exit
+2024-09-06 11:03:21,336 INFO    MainThread:283523 [wandb_run.py:_footer_history_summary_info():4078] rendering history
+2024-09-06 11:03:21,336 INFO    MainThread:283523 [wandb_run.py:_footer_history_summary_info():4110] rendering summary
+2024-09-06 11:03:21,336 INFO    MainThread:283523 [wandb_run.py:_footer_sync_info():4037] logging synced files
+2024-09-06 11:03:21,336 DEBUG   HandlerThread:283523 [handler.py:handle_request():158] handle_request: shutdown
+2024-09-06 11:03:21,337 INFO    HandlerThread:283523 [handler.py:finish():884] shutting down handler
+2024-09-06 11:03:22,208 INFO    WriterThread:283523 [datastore.py:close():296] close: /home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/wandb/run-20240906_110312-dx50u9uf/run-dx50u9uf.wandb
+2024-09-06 11:03:22,336 INFO    SenderThread:283523 [sender.py:finish():1631] shutting down sender
+2024-09-06 11:03:22,336 INFO    SenderThread:283523 [file_pusher.py:finish():169] shutting down file pusher
+2024-09-06 11:03:22,336 INFO    SenderThread:283523 [file_pusher.py:join():175] waiting for file pusher
