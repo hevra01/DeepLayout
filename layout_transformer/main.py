@@ -10,7 +10,7 @@ from utils import set_seed
 if __name__ == "__main__":
     parser = argparse.ArgumentParser('Layout Transformer')
     parser.add_argument("--exp", default="layout", help="experiment name")
-    parser.add_argument("--log_dir", default="./logs", help="/path/to/logs/dir")
+    parser.add_argument("--log_dir", default="/home/hepe00001/deeplayout/DeepLayout/layout_transformer/logs/MNISTLayout/", help="/path/to/logs/dir")
 
     # MNIST options
     parser.add_argument("--data_dir", default=None, help="/path/to/mnist/data")
