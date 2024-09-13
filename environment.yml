@@ -4,17 +4,19 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python
-  - pip=20.3
-  - cudatoolkit=10.2
-  - pytorch=1.7.0
-  - torchvision=0.8.1
-  - numpy=1.19.2
-  - scikit-learn
-  - scipy
+  - python=3.12.5
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - tqdm
+  - torchvision=0.19.1
+  - torchaudio=2.4.1
+  - pytorch=2.4.1
   - pip:
-    - tqdm
-    - seaborn
     - wandb
     - tabulate
     - ipdb
+prefix: /home/hepe00001/anaconda3/envs/layout
+
