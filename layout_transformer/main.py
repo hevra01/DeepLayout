@@ -62,7 +62,7 @@ if __name__ == "__main__":
     else:
         train_dataset = JSONLayout(args.train_json)
         valid_dataset = JSONLayout(args.val_json, max_length=train_dataset.max_length)
-    
+    print("finsihed training dataset")
     mconf = GPTConfig(train_dataset.vocab_size, train_dataset.max_length,
                       n_layer=args.n_layer, n_head=args.n_head, n_embd=args.n_embd)  # a GPT-1
     model = GPT(mconf)
