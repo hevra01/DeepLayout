@@ -10,7 +10,7 @@ from utils import set_seed
 if __name__ == "__main__":
     parser = argparse.ArgumentParser('Layout Transformer')
     parser.add_argument("--exp", default="layout", help="experiment name")
-    parser.add_argument("--log_dir", default="./logs", help="/path/to/logs/dir")
+    parser.add_argument("--log_dir", default="/home/hepe00001/deeplayout/DeepLayout/layout_transformer/logs/MNISTLayout/", help="/path/to/logs/dir")
 
     # MNIST options
     parser.add_argument("--data_dir", default=None, help="/path/to/mnist/data")
@@ -52,9 +52,10 @@ if __name__ == "__main__":
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"using device: {device}")
-
+    print(f"args.data_dir {args.data_dir}")
     # MNIST Testing
     if args.data_dir is not None:
+        print("args.log_dir", args.log_dir)
         train_dataset = MNISTLayout(args.log_dir, train=True, threshold=args.threshold)
         valid_dataset = MNISTLayout(args.log_dir, train=False, threshold=args.threshold,
                                     max_length=train_dataset.max_length)

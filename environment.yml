@@ -1,6 +1,8 @@
 name: layout
 channels:
+  - pytorch
   - conda-forge
+  - defaults
 dependencies:
   - python
   - pip=20.3

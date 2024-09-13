@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 
 class TrainerConfig:
     # optimization parameters
-    max_epochs = 10
+    max_epochs = 100
     batch_size = 64
     learning_rate = 3e-4
     betas = (0.9, 0.95)
