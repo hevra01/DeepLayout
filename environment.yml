@@ -1,5 +1,6 @@
 name: layout
 channels:
+  - pytorch
   - conda-forge
   - defaults
 dependencies:
@@ -15,6 +16,10 @@ dependencies:
   - pytorch=2.4.1
   - pip:
     - wandb
+<<<<<<< HEAD
+    - tabulate
+    - ipdb
+=======
     - idx2numpy
     - requests
     - protobuf
@@ -32,3 +37,4 @@ dependencies:
     - nvidia-cuda-runtime-cu12
     - nvidia-cudnn-cu12
 prefix: /home/hepe00001/anaconda3/envs/layout
+
