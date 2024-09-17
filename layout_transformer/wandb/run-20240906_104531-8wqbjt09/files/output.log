@@ -1,4 +1,0 @@
-Dataset MNISTLayout
-    Number of datapoints: 60000
-    Root location: ./logs
-    Split: Train

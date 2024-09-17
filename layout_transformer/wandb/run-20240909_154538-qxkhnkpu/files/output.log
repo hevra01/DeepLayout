@@ -1,3 +1,0 @@
-
-  0%|                                                                                                                                                                 | 0/938 [00:00<?, ?it/s]
-token_embeddings.shape torch.Size([64, 352, 512])
