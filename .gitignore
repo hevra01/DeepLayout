@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Logs and output files
+*.log
+*.out
+*.err
+
+# WandB auto-logs
+wandb/
+**/*.wandb/
+
+
+# Core dumps
+core.*
+
+
+
+# Ignore the .DS_Store files on macOS
+.DS_Store
+
+
+# docker logs
+*_docker_stderror*
+
