@@ -10,7 +10,7 @@ from utils import set_seed
 if __name__ == "__main__":
     parser = argparse.ArgumentParser('Layout Transformer')
     parser.add_argument("--exp", default="layout", help="experiment name")
-    parser.add_argument("--log_dir", default="/home/hepe00001/deeplayout/DeepLayout/layout_transformer/logs/MNISTLayout/", help="/path/to/logs/dir")
+    parser.add_argument("--log_dir", default="/home/hepe00001/deeplayout/DeepLayout/layout_transformer/logs/", help="/path/to/logs/dir")
 
     # MNIST options
     parser.add_argument("--data_dir", default=None, help="/path/to/mnist/data")
@@ -28,8 +28,8 @@ if __name__ == "__main__":
 
     # Architecture/training options
     parser.add_argument("--seed", type=int, default=42, help="random seed")
-    parser.add_argument("--epochs", type=int, default=10, help="number of epochs")
-    parser.add_argument("--batch_size", type=int, default=64, help="batch size")
+    parser.add_argument("--epochs", type=int, default=100, help="number of epochs")
+    parser.add_argument("--batch_size", type=int, default=128, help="batch size")
     parser.add_argument("--lr", type=float, default=4.5e-06, help="learning rate")
     parser.add_argument('--n_layer', default=6, type=int)
     parser.add_argument('--n_embd', default=512, type=int)
@@ -52,10 +52,16 @@ if __name__ == "__main__":
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"using device: {device}")
-    print(f"args.data_dir {args.data_dir}")
+    if device.type == 'cuda':
+        print(f"CUDA is available. Version: {torch.version.cuda}")
+        print(f"Number of GPUs: {torch.cuda.device_count()}")
+        print(f"Device Name: {torch.cuda.get_device_name(0)}")
+        print(f"CUDA Device Capability: {torch.cuda.get_device_capability(0)}")
+    else:
+        print("CUDA is not available, running on CPU.")
+
     # MNIST Testing
     if args.data_dir is not None:
-        print("args.log_dir", args.log_dir)
         train_dataset = MNISTLayout(args.log_dir, train=True, threshold=args.threshold)
         valid_dataset = MNISTLayout(args.log_dir, train=False, threshold=args.threshold,
                                     max_length=train_dataset.max_length)
