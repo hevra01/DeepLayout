@@ -4,13 +4,13 @@ import torch
 from dataset import MNISTLayout, JSONLayout
 from model import GPT, GPTConfig
 from trainer import Trainer, TrainerConfig
-from utils import set_seed
+from utils import EvalConfig, Evaluate, set_seed
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser('Layout Transformer')
     parser.add_argument("--exp", default="layout", help="experiment name")
-    parser.add_argument("--log_dir", default="/home/hepe00001/deeplayout/DeepLayout/layout_transformer/logs/", help="/path/to/logs/dir")
+    parser.add_argument("--log_dir", default="/home/hepe00001/Desktop/neuro_explicit/generative_diffusion/DeepLayout/layout_transformer/logs/", help="/path/to/logs/dir")
 
     # MNIST options
     parser.add_argument("--data_dir", default=None, help="/path/to/mnist/data")
@@ -34,7 +34,7 @@ if __name__ == "__main__":
     parser.add_argument('--n_layer', default=6, type=int)
     parser.add_argument('--n_embd', default=512, type=int)
     parser.add_argument('--n_head', default=8, type=int)
-    # parser.add_argument('--evaluate', action='store_true', help="evaluate only")
+    parser.add_argument('--evaluate', action='store_true', help="evaluate only")
     parser.add_argument('--lr_decay', action='store_true', help="use learning rate decay")
     parser.add_argument('--warmup_iters', type=int, default=0, help="linear lr warmup iters")
     parser.add_argument('--final_iters', type=int, default=0, help="cosine lr final iters")
@@ -69,18 +69,40 @@ if __name__ == "__main__":
     else:
         train_dataset = JSONLayout(args.train_json)
         valid_dataset = JSONLayout(args.val_json, max_length=train_dataset.max_length)
-    print("finsihed training dataset")
+    
+    # setup model
     mconf = GPTConfig(train_dataset.vocab_size, train_dataset.max_length,
                       n_layer=args.n_layer, n_head=args.n_head, n_embd=args.n_embd)  # a GPT-1
     model = GPT(mconf)
-    tconf = TrainerConfig(max_epochs=args.epochs,
-                          batch_size=args.batch_size,
-                          lr_decay=args.lr_decay,
-                          learning_rate=args.lr * args.batch_size,
-                          warmup_iters=args.warmup_iters,
-                          final_iters=args.final_iters,
-                          ckpt_dir=ckpt_dir,
-                          samples_dir=samples_dir,
-                          sample_every=args.sample_every)
-    trainer = Trainer(model, train_dataset, valid_dataset, tconf, args)
-    trainer.train()
+
+    if args.evaluate:
+        evalconf = EvalConfig(max_epochs=args.epochs,
+                                batch_size=args.batch_size,
+                                ckpt_dir=ckpt_dir,
+                                samples_dir=samples_dir,
+                                sample_every=args.sample_every)
+        
+        # Inference mode: load the checkpoint and perform sampling
+        if ckpt_dir is None:
+            raise ValueError("Please provide a checkpoint path for evaluation.")
+        
+        print(f"Loading model from checkpoint: {ckpt_dir}")
+        model.load_state_dict(torch.load(os.path.join(ckpt_dir, "checkpoint.pth"), map_location=device))
+        
+        evaluate = Evaluate(model, valid_dataset, evalconf, args)
+        evaluate.eval()
+
+
+    else:
+        # Training mode: setup trainer and start training
+        tconf = TrainerConfig(max_epochs=args.epochs,
+                                batch_size=args.batch_size,
+                                lr_decay=args.lr_decay,
+                                learning_rate=args.lr * args.batch_size,
+                                warmup_iters=args.warmup_iters,
+                                final_iters=args.final_iters,
+                                ckpt_dir=ckpt_dir,
+                                samples_dir=samples_dir,
+                                sample_every=args.sample_every)
+        trainer = Trainer(model, train_dataset, valid_dataset, tconf, args)
+        trainer.train()
