@@ -36,7 +36,7 @@ class TrainerConfig:
     ckpt_dir = None
     samples_dir = None
     sample_every = 1
-    num_workers = 0  # for DataLoader
+    num_workers = 4  # for DataLoader
 
     def __init__(self, **kwargs):
         for k, v in kwargs.items():
@@ -54,6 +54,7 @@ class Trainer:
         self.fixed_x = None
         self.fixed_y = None
         print("Using wandb")
+        wandb.login(key="aabe3a9de8b348d83b37bd4d1cbbdcd366f55c9e")
         wandb.init(project='LayoutTransformer', name=args.exp)
         wandb.config.update(args)
 
