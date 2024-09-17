@@ -31,7 +31,7 @@ class Padding(object):
 
 class MNISTLayout(MNIST):
 
-    def __init__(self, root, train=True, download=True, threshold=32, max_length=None):
+    def __init__(self, root, train=True, download=False, threshold=32, max_length=None):
         super().__init__(root, train=train, download=download)
         self.vocab_size = 784 + 3  # bos, eos, pad tokens
         self.bos_token = self.vocab_size - 3
