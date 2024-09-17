@@ -10,6 +10,8 @@ __pycache__/
 # WandB auto-logs
 wandb/
 **/*.wandb/
+wandb/latest-run
+
 
 
 # Core dumps
