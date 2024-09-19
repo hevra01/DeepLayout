@@ -26,3 +26,9 @@ core.*
 # docker logs
 *_docker_stderror*
 
+# Ignore all .sub files
+*.sub
+
+# Ignore all docker stderr files
+docker_stderr*
+
