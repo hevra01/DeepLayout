@@ -2,9 +2,10 @@ import os
 import argparse
 import torch
 from dataset import MNISTLayout, JSONLayout
+from evaluator import Evaluate, EvalConfig
 from model import GPT, GPTConfig
 from trainer import Trainer, TrainerConfig
-from utils import EvalConfig, Evaluate, set_seed
+from utils import set_seed
 
 
 if __name__ == "__main__":

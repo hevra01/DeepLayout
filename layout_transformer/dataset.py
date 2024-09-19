@@ -78,14 +78,15 @@ class JSONLayout(Dataset):
 
         images, annotations, categories = data['images'], data['annotations'], data['categories']
         self.size = pow(2, precision)
-
+        
+        
         self.categories = {c["id"]: c for c in categories}
         self.colors = gen_colors(len(self.categories))
-
+    
         self.json_category_id_to_contiguous_id = {
             v: i + self.size for i, v in enumerate([c["id"] for c in self.categories.values()])
         }
-
+        
         self.contiguous_category_id_to_json_id = {
             v: k for k, v in self.json_category_id_to_contiguous_id.items()
         }
@@ -95,6 +96,7 @@ class JSONLayout(Dataset):
         self.eos_token = self.vocab_size - 2
         self.pad_token = self.vocab_size - 1
 
+        # The image_to_annotations dictionary is used to group the annotations by image_id. 
         image_to_annotations = {}
         for annotation in annotations:
             image_id = annotation["image_id"]
@@ -103,7 +105,7 @@ class JSONLayout(Dataset):
                 image_to_annotations[image_id] = []
 
             image_to_annotations[image_id].append(annotation)
-
+        
         self.data = []
         for image in images:
             image_id = image["id"]
@@ -126,12 +128,16 @@ class JSONLayout(Dataset):
        
             ann_cat = np.array(ann_cat)
             ann_cat = ann_cat[ind]
+            #print("ann_cat", ann_cat)
 
             # Discretize boxes
             ann_box = self.quantize_box(ann_box, width, height)
+            #print("ann_box", ann_box)
 
             # Append the categories
             layout = np.concatenate([ann_cat.reshape(-1, 1), ann_box], axis=1)
+            #print("layout", layout)
+
 
             # Flatten and add to the dataset
             self.data.append(layout.reshape(-1))

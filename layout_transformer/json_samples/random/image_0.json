@@ -1,0 +1,33 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                6.023529529571533,
+                0.0,
+                500.0,
+                500.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                212.8313751220703,
+                212.8313751220703,
+                86.0,
+                292.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "umbrella",
+            "certainties": 0.0
+        }
+    ]
+}

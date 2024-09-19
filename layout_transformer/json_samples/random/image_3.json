@@ -1,0 +1,45 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                508.0,
+                502.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                44.0,
+                64.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                152.59608459472656,
+                0.0,
+                164.0,
+                508.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "umbrella",
+            "certainties": 0.0
+        }
+    ]
+}
