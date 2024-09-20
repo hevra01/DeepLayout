@@ -193,3 +193,166 @@ class JSONLayout(Dataset):
         layout = torch.tensor(self.data[idx], dtype=torch.long)
         layout = self.transform(layout)
         return layout['x'], layout['y']
+
+class ADE20KDataset(Dataset):
+    def __init__(self, dir_path, precision=9, max_length=None, standard_frame_height=512, standard_frame_width=512):
+
+        raw_dataset = self.load_dataset(self, dir_path)
+        
+        # these values will be used to adjust the coordinates to be between 
+        self.standard_frame_height = standard_frame_height
+        self.standard_frame_width = standard_frame_width
+        self.standard_full_frame= [0,0,self.standard_frame_width,self.standard_frame_height]
+
+        self.to_centerpoints=True,
+        self.center_xy = True,
+        self.center_size=False
+        self.half_size = True
+
+        # we give the background as a condition while generating a scene.
+        # the background will occupy the whole scene. 
+        self.background = torch.tensor([[0, 0, self.standard_frame_width - 1, self.standard_frame_height - 1]])
+        
+        # this is for the bounding boxes.
+        # they will have values between 0 - self.size
+        self.size = pow(2, precision)
+
+        # find the categories present in the data
+        self.categories = self.get_categories(raw_dataset)
+        
+        # we are reserving vocab from 0 to self.size - 1 for the bounding boxes,
+        # hence we need to shift the categories by self.size
+        self.shift_by_self_size = {
+            v: i + self.size for i, v in enumerate(self.categories.values())
+        }
+        
+        self.undo_shift = {
+            v: k for k, v in self.shift_by_self_size.items()
+        }
+
+        self.vocab_size = self.size + len(self.categories) + 3  # bos, eos, pad tokens
+        self.bos_token = self.vocab_size - 3
+        self.eos_token = self.vocab_size - 2
+        self.pad_token = self.vocab_size - 1
+
+        # this should hold a flattened list of [category_id, x, y, w, h]
+        self.data = []
+
+        # iterate over the data 
+        for image in raw_dataset:
+
+            # get the string labels
+            labels = image['labels']
+
+            # convert the string labels to integer labels
+            integer_labels = [self.categories[label] for label in labels]
+
+            # shift the integer labels by self.size
+            shifted_labels = np.expand_dims(np.array([self.shift_by_self_size[label] for label in integer_labels]), axis=1)
+            
+            # get the raw coordinates
+            coordinates = image['coords']
+
+            # convert the raw coordinates to the standard frame
+            converted_coords = self.convert_tensor_to_standard(coordinates[:len(labels)-1, :])
+
+            # append the background to the converted coordinates
+            converted_coords = torch.cat((self.background, converted_coords), dim=0)
+
+            # Sort boxes
+            ann_box = np.array(converted_coords)
+            ind = np.lexsort((ann_box[:, 0], ann_box[:, 1]))
+            ann_box = ann_box[ind]
+            
+            # Append the categories to the coordinates
+            layout = np.concatenate([shifted_labels, ann_box], axis=1)
+            
+            # Flatten and add to the dataset
+            self.data.append(layout.reshape(-1))
+
+
+        self.max_length = max_length
+        if self.max_length is None:
+            self.max_length = max([len(x) for x in self.data]) + 2  # bos, eos tokens
+        self.transform = Padding(self.max_length, self.vocab_size)
+
+    def load_dataset(self, dir_path):
+        # first, load the dataset given the path
+        # Initialize a list to store the loaded data
+        loaded_data = []
+
+        # List all .pt files (assuming the format is '00000.pt' to '27573.pt')
+        num_files = 27574  # Total number of files
+        for i in range(num_files):
+            filename = f'{str(i).zfill(5)}.pt'  # Create the filename, e.g., '00000.pt', '00001.pt'
+            file_path = os.path.join(dir_path, filename)
+            
+            # Check if the file exists
+            if os.path.exists(file_path):
+                
+                # Load the .pt file
+                data = torch.load(file_path)
+
+                # Append the loaded data to the list
+                loaded_data.append(data)
+        return loaded_data
+        
+
+    def __getitem__(self, idx):
+        # grab a chunk of (block_size + 1) tokens from the data
+        layout = torch.tensor(self.data[idx], dtype=torch.long)
+        layout = self.transform(layout)
+        return layout['x'], layout['y']
+
+    def __len__(self):
+        return len(self.data)
+    
+    def get_categories(self, raw_dataset):
+        # Initialize a dictionary where keys are categories, and values are indices.
+        categories = {}
+        current_index = 0
+        
+        for d in raw_dataset:
+            labels = d['labels']
+            for label in labels:
+                # If the label is not already in the dictionary, add it with the next index
+                if label not in categories:
+                    categories[label] = current_index
+                    current_index += 1
+        
+        return categories
+    
+    def convert_tensor_to_standard(self, coords_tensor):
+        # Assuming coords_tensor has shape (N, 4) where N is the number of objects
+        x_coord, y_coord, width, height = coords_tensor[:, 0], coords_tensor[:, 1], coords_tensor[:, 2], coords_tensor[:, 3]
+
+        if self.half_size:
+            width = width * 2
+            height = height * 2
+
+        if self.center_size:
+            width = width + 0.5
+            height = height + 0.5
+
+        if self.center_xy:
+            x_coord = x_coord + 0.5
+            y_coord = y_coord + 0.5
+
+        if self.to_centerpoints:
+            x_min = x_coord - (width / 2)
+            y_min = y_coord - (height / 2)
+        else:
+            x_min = x_coord
+            y_min = y_coord
+
+        # Scale back to standard frame dimensions (e.g., 512x512)
+        x_min = (x_min * self.standard_frame_width).int()
+        y_min = (y_min * self.standard_frame_height).int()
+        width = (width * self.standard_frame_width).int()
+        height = (height * self.standard_frame_height).int()
+
+        # Ensure minimum width and height
+        width = torch.clamp(width, min=1)
+        height = torch.clamp(height, min=1)
+
+        return torch.stack([x_min, y_min, width, height], dim=1)
