@@ -1,0 +1,105 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                271.058837890625,
+                52.203922271728516,
+                46.0,
+                66.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "traffic light",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                204.8000030517578,
+                66.25882720947266,
+                42.0,
+                66.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "traffic light",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                307.20001220703125,
+                18.0,
+                16.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "car",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                2.007843255996704,
+                311.2156982421875,
+                22.0,
+                20.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "car",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                317.2392272949219,
+                20.0,
+                16.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "car",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                321.2549133300781,
+                12.0,
+                16.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "car",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                327.2784423828125,
+                10.0,
+                20.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "car",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                2.007843255996704,
+                329.2862854003906,
+                10.0,
+                16.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "car",
+            "certainties": 0.0
+        }
+    ]
+}

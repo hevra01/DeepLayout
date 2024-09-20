@@ -1,0 +1,309 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                277.0823669433594,
+                184.72157287597656,
+                56.0,
+                194.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                170.6666717529297,
+                190.74510192871094,
+                52.0,
+                164.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                190.74510192871094,
+                506.0,
+                122.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                210.8235321044922,
+                202.7921600341797,
+                36.0,
+                118.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                265.0353088378906,
+                204.8000030517578,
+                24.0,
+                106.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                212.8313751220703,
+                208.81568908691406,
+                26.0,
+                114.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                210.8235321044922,
+                22.0,
+                104.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                152.59608459472656,
+                212.8313751220703,
+                20.0,
+                102.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                218.8549041748047,
+                12.0,
+                104.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                220.8627471923828,
+                16.0,
+                106.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                220.8627471923828,
+                8.0,
+                24.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "backpack",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                34.13333511352539,
+                222.87059020996094,
+                20.0,
+                102.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                80.31372833251953,
+                222.87059020996094,
+                16.0,
+                96.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                224.87843322753906,
+                14.0,
+                104.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                230.90196228027344,
+                12.0,
+                86.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                30.117647171020508,
+                236.9254913330078,
+                6.0,
+                18.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "handbag",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                38.14902114868164,
+                240.94117736816406,
+                12.0,
+                80.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                2.007843255996704,
+                244.9568634033203,
+                6.0,
+                20.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "suitcase",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                22.086275100708008,
+                244.9568634033203,
+                8.0,
+                24.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "handbag",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                38.14902114868164,
+                244.9568634033203,
+                4.0,
+                14.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "suitcase",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                248.97254943847656,
+                4.0,
+                12.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "handbag",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                257.0039367675781,
+                10.0,
+                20.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "handbag",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                30.117647171020508,
+                257.0039367675781,
+                8.0,
+                26.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "handbag",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                38.14902114868164,
+                265.0353088378906,
+                12.0,
+                24.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "handbag",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                30.117647171020508,
+                265.0353088378906,
+                6.0,
+                18.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "suitcase",
+            "certainties": 0.0
+        }
+    ]
+}

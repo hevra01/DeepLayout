@@ -1,0 +1,501 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                277.0823669433594,
+                184.72157287597656,
+                56.0,
+                194.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                186.7294158935547,
+                506.0,
+                322.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                188.7372589111328,
+                28.0,
+                114.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                190.74510192871094,
+                28.0,
+                110.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                192.75294494628906,
+                28.0,
+                104.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                196.7686309814453,
+                24.0,
+                106.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                198.77647399902344,
+                24.0,
+                104.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                202.7921600341797,
+                24.0,
+                104.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                204.8000030517578,
+                24.0,
+                104.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                206.80784606933594,
+                24.0,
+                104.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                208.81568908691406,
+                24.0,
+                104.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                214.83921813964844,
+                24.0,
+                104.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                214.83921813964844,
+                24.0,
+                104.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                214.83921813964844,
+                24.0,
+                104.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                218.8549041748047,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                220.8627471923828,
+                10.0,
+                2.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                222.87059020996094,
+                10.0,
+                4.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                224.87843322753906,
+                10.0,
+                4.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                226.8862762451172,
+                10.0,
+                4.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                232.90980529785156,
+                10.0,
+                4.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                234.9176483154297,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                236.9254913330078,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                242.9490203857422,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                244.9568634033203,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                254.99607849121094,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                257.0039367675781,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                257.0039367675781,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                259.01177978515625,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                261.0196228027344,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                263.0274658203125,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                265.0353088378906,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                269.0509948730469,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                269.0509948730469,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                271.058837890625,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                279.0902099609375,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                281.0980529785156,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                283.10589599609375,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                285.1137390136719,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                287.12158203125,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                289.1294250488281,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                297.1607971191406,
+                10.0,
+                6.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skis",
+            "certainties": 0.0
+        }
+    ]
+}

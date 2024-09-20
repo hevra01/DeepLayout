@@ -1,0 +1,45 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                439.7176513671875,
+                166.65098571777344,
+                68.0,
+                334.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "refrigerator",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                168.65882873535156,
+                164.0,
+                334.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "oven",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                257.0039367675781,
+                218.8549041748047,
+                82.0,
+                18.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "sink",
+            "certainties": 0.0
+        }
+    ]
+}

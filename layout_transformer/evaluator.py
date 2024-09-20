@@ -25,16 +25,19 @@ class Evaluate:
         self.valid_dataset = valid_dataset
         self.evalConfig = evalConfig
         
-        #print("Using wandb")
-        #wandb.login(key="aabe3a9de8b348d83b37bd4d1cbbdcd366f55c9e")
-        #wandb.init(project='LayoutTransformer', name=args.exp)
-        #wandb.config.update(args)
+        print("Using wandb")
+        wandb.login(key="aabe3a9de8b348d83b37bd4d1cbbdcd366f55c9e")
+        wandb.init(project='LayoutTransformer', name=args.exp)
+        wandb.config.update(args)
     
     def eval(self):
         self.model.eval()
 
         # Create a tensor of shape [4, 1] with each element having the value of 'bos'
         init_condition = torch.full((4, 1), self.valid_dataset.bos_token)
+        #init_condition = [self.valid_dataset[i][0][:6] for i in range(4)]
+        #init_condition = torch.stack(init_condition) 
+        
 
         # samples - random
         layouts = sample(self.model, init_condition, steps=self.valid_dataset.max_length,
@@ -42,7 +45,7 @@ class Evaluate:
         sample_random_layouts = [self.valid_dataset.render(layout) for layout in layouts]
 
         # Process all images and save as JSON
-        process_all_images(layouts, self.valid_dataset, output_dir="./json_samples/random/")
+        process_all_images(layouts, self.valid_dataset, output_dir="./json_samples/random/1_tokens/")
 
         # samples - deterministic
         layouts = sample(self.model, init_condition, steps=self.valid_dataset.max_length,
@@ -50,7 +53,7 @@ class Evaluate:
         sample_det_layouts = [self.valid_dataset.render(layout) for layout in layouts]
         
         # Process all images and save as JSON
-        process_all_images(layouts, self.valid_dataset, output_dir="./json_samples/deterministic/")
+        process_all_images(layouts, self.valid_dataset, output_dir="./json_samples/deterministic/1_tokens/")
 
         wandb.log({
                         "sample_random_layouts": [wandb.Image(pil, caption=f'bos_sample_random_{i:02d}.png')

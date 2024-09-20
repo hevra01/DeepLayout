@@ -79,8 +79,8 @@ class JSONLayout(Dataset):
         images, annotations, categories = data['images'], data['annotations'], data['categories']
         self.size = pow(2, precision)
         
-        
         self.categories = {c["id"]: c for c in categories}
+        
         self.colors = gen_colors(len(self.categories))
     
         self.json_category_id_to_contiguous_id = {
@@ -128,16 +128,12 @@ class JSONLayout(Dataset):
        
             ann_cat = np.array(ann_cat)
             ann_cat = ann_cat[ind]
-            #print("ann_cat", ann_cat)
 
             # Discretize boxes
             ann_box = self.quantize_box(ann_box, width, height)
-            #print("ann_box", ann_box)
-
+           
             # Append the categories
             layout = np.concatenate([ann_cat.reshape(-1, 1), ann_box], axis=1)
-            #print("layout", layout)
-
 
             # Flatten and add to the dataset
             self.data.append(layout.reshape(-1))
@@ -170,7 +166,10 @@ class JSONLayout(Dataset):
         draw = ImageDraw.Draw(img, 'RGBA')
         layout = layout.reshape(-1)
         layout = trim_tokens(layout, self.bos_token, self.eos_token, self.pad_token)
+        
         layout = layout[: len(layout) // 5 * 5].reshape(-1, 5)
+        
+        
         box = layout[:, 1:].astype(np.float32)
         box[:, [0, 1]] = box[:, [0, 1]] / (self.size - 1) * 255
         box[:, [2, 3]] = box[:, [2, 3]] / self.size * 256

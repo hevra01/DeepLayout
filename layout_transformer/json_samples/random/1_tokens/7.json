@@ -1,0 +1,33 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                508.0,
+                502.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                190.74510192871094,
+                190.74510192871094,
+                138.0,
+                318.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "tie",
+            "certainties": 0.0
+        }
+    ]
+}

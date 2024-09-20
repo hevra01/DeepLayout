@@ -21,7 +21,7 @@ def tensor_to_json(image_tensor, dataset, width=512, height=512):
     
     # Reshape the tensor to get [category_id, x, y, width, height] per object
     image_tensor = image_tensor[: len(image_tensor) // 5 * 5].reshape(-1, 5)
-    
+
     # Initialize the list to store annotations
     annos = []
 
@@ -44,14 +44,11 @@ def tensor_to_json(image_tensor, dataset, width=512, height=512):
         x, y, w, h = box[i]
 
         # check if category_id is within the range of COCO categories
-        # remember that COCO categories are in the range [1, 90] and we have 
-        # shifted the category IDs by size for the bounding boxes. Because 
-        # bounding boxes range from 0 to size - 1.
-        if dataset.size > category_id or (category_id > (dataset.size + 90)):
-            caption = "unknown"
-        else:
-            category_id = int(category_id - dataset.size) + 1
+        if category_id in dataset.contiguous_category_id_to_json_id:
+            category_id = dataset.contiguous_category_id_to_json_id[category_id]
             caption = dataset.categories[category_id]["name"]
+        else:
+            caption = "unknown"
 
         # Create the annotation object
         annotation = {
@@ -73,7 +70,7 @@ def tensor_to_json(image_tensor, dataset, width=512, height=512):
 
 # Function to convert all image tensors and save as JSON
 def process_all_images(tensors, dataset, output_dir):
-    print(enumerate(tensors))
+    # Iterate over all image tensors
     for i, image_tensor in enumerate(tensors):
         # Process each image tensor and generate JSON
         json_data = tensor_to_json(image_tensor, dataset, width=512, height=512)
@@ -82,9 +79,8 @@ def process_all_images(tensors, dataset, output_dir):
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
     
-
         # Save the JSON data to a file
-        output_file = f"{output_dir}/image_{i}.json"
+        output_file = f"{output_dir}/{i}.json"
         with open(output_file, 'w') as f:
             json.dump(json_data, f, indent=4)
         print(f"Saved JSON for image {i} to {output_file}")

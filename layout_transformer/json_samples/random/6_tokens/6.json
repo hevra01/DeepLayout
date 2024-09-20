@@ -1,0 +1,141 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                439.7176513671875,
+                166.65098571777344,
+                68.0,
+                334.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "refrigerator",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                2.007843255996704,
+                174.68235778808594,
+                60.0,
+                60.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "microwave",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                230.90196228027344,
+                248.97254943847656,
+                4.0,
+                12.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "knife",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                254.99607849121094,
+                82.0,
+                78.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "oven",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                271.058837890625,
+                36.0,
+                16.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "sink",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                80.31372833251953,
+                275.07452392578125,
+                36.0,
+                22.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "bowl",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                80.31372833251953,
+                281.0980529785156,
+                50.0,
+                16.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "sink",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                281.0980529785156,
+                52.0,
+                134.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "oven",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                289.1294250488281,
+                66.0,
+                214.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "oven",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                2.007843255996704,
+                289.1294250488281,
+                236.0,
+                214.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "dining table",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                291.13726806640625,
+                26.0,
+                22.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "bowl",
+            "certainties": 0.0
+        }
+    ]
+}
