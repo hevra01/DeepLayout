@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import torch
 from torchvision.datasets.mnist import MNIST
@@ -196,8 +197,8 @@ class JSONLayout(Dataset):
 
 class ADE20KDataset(Dataset):
     def __init__(self, dir_path, precision=9, max_length=None, standard_frame_height=512, standard_frame_width=512):
-
-        raw_dataset = self.load_dataset(self, dir_path)
+        print(dir_path)
+        raw_dataset = self.load_dataset(dir_path)
         
         # these values will be used to adjust the coordinates to be between 
         self.standard_frame_height = standard_frame_height
@@ -209,6 +210,8 @@ class ADE20KDataset(Dataset):
         self.center_size=False
         self.half_size = True
 
+        
+
         # we give the background as a condition while generating a scene.
         # the background will occupy the whole scene. 
         self.background = torch.tensor([[0, 0, self.standard_frame_width - 1, self.standard_frame_height - 1]])
@@ -219,6 +222,8 @@ class ADE20KDataset(Dataset):
 
         # find the categories present in the data
         self.categories = self.get_categories(raw_dataset)
+
+        self.colors = gen_colors(len(self.categories))
         
         # we are reserving vocab from 0 to self.size - 1 for the bounding boxes,
         # hence we need to shift the categories by self.size
@@ -321,6 +326,33 @@ class ADE20KDataset(Dataset):
                     current_index += 1
         
         return categories
+    
+    def render(self, layout):
+        img = Image.new('RGB', (256, 256), color=(255, 255, 255))
+        draw = ImageDraw.Draw(img, 'RGBA')
+        layout = layout.reshape(-1)
+        layout = trim_tokens(layout, self.bos_token, self.eos_token, self.pad_token)
+        
+        layout = layout[: len(layout) // 5 * 5].reshape(-1, 5)
+        
+        
+        box = layout[:, 1:].astype(np.float32)
+        box[:, [0, 1]] = box[:, [0, 1]] / (self.size - 1) * 255
+        box[:, [2, 3]] = box[:, [2, 3]] / self.size * 256
+        box[:, [2, 3]] = box[:, [0, 1]] + box[:, [2, 3]]
+
+        for i in range(len(layout)):
+            x1, y1, x2, y2 = box[i]
+            cat = layout[i][0]
+            col = self.colors[cat-self.size] if 0 <= cat-self.size < len(self.colors) else [0, 0, 0]
+            draw.rectangle([x1, y1, x2, y2],
+                           outline=tuple(col) + (200,),
+                           fill=tuple(col) + (64,),
+                           width=2)
+
+        # Add border around image
+        img = ImageOps.expand(img, border=2)
+        return img
     
     def convert_tensor_to_standard(self, coords_tensor):
         # Assuming coords_tensor has shape (N, 4) where N is the number of objects
