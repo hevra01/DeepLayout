@@ -197,7 +197,6 @@ class JSONLayout(Dataset):
 
 class ADE20KDataset(Dataset):
     def __init__(self, dir_path, precision=9, max_length=None, standard_frame_height=512, standard_frame_width=512):
-        print(dir_path)
         raw_dataset = self.load_dataset(dir_path)
         
         # these values will be used to adjust the coordinates to be between 
@@ -209,9 +208,7 @@ class ADE20KDataset(Dataset):
         self.center_xy = True,
         self.center_size=False
         self.half_size = True
-
         
-
         # we give the background as a condition while generating a scene.
         # the background will occupy the whole scene. 
         self.background = torch.tensor([[0, 0, self.standard_frame_width - 1, self.standard_frame_height - 1]])
@@ -222,6 +219,7 @@ class ADE20KDataset(Dataset):
 
         # find the categories present in the data
         self.categories = self.get_categories(raw_dataset)
+
 
         self.colors = gen_colors(len(self.categories))
         

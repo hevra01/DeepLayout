@@ -1,7 +1,7 @@
 import os
 import argparse
 import torch
-from dataset import MNISTLayout, JSONLayout
+from dataset import MNISTLayout, JSONLayout, ADE20KDataset
 from evaluator import Evaluate, EvalConfig
 from model import GPT, GPTConfig
 from trainer import Trainer, TrainerConfig
@@ -30,7 +30,7 @@ if __name__ == "__main__":
     # Architecture/training options
     parser.add_argument("--seed", type=int, default=42, help="random seed")
     parser.add_argument("--epochs", type=int, default=100, help="number of epochs")
-    parser.add_argument("--batch_size", type=int, default=128, help="batch size")
+    parser.add_argument("--batch_size", type=int, default=64, help="batch size")
     parser.add_argument("--lr", type=float, default=4.5e-06, help="learning rate")
     parser.add_argument('--n_layer', default=6, type=int)
     parser.add_argument('--n_embd', default=512, type=int)
@@ -62,10 +62,16 @@ if __name__ == "__main__":
         print("CUDA is not available, running on CPU.")
 
     # MNIST Testing
-    if args.data_dir is not None:
+    if args.data_dir == "MNIST":
         train_dataset = MNISTLayout(args.log_dir, train=True, threshold=args.threshold)
         valid_dataset = MNISTLayout(args.log_dir, train=False, threshold=args.threshold,
                                     max_length=train_dataset.max_length)
+
+    # ADE20K   
+    elif args.data_dir is not None:
+        train_dataset = ADE20KDataset(args.data_dir)
+        valid_dataset = ADE20KDataset(args.data_dir)
+
     # COCO and PubLayNet
     else:
         train_dataset = JSONLayout(args.train_json)

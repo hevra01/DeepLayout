@@ -1,7 +1,12 @@
+import json
 import torch
 import wandb
 from prepare_for_visualization import process_all_images
 from utils import sample
+
+ade20K_eval_background = ["dining room", "bathroom", "airport airport", "airport terminal", "kitchen", 
+                       "arcade", "bedroom", "living room", "classroom", "hospital room", 
+                       "martial arts gym", "gym shoe", "gym machine"]
 
 
 class EvalConfig:
@@ -24,6 +29,7 @@ class Evaluate:
         self.model = model
         self.valid_dataset = valid_dataset
         self.evalConfig = evalConfig
+        self.args = args
         
         print("Using wandb")
         wandb.login(key="aabe3a9de8b348d83b37bd4d1cbbdcd366f55c9e")
@@ -33,10 +39,36 @@ class Evaluate:
     def eval(self):
         self.model.eval()
 
-        # Create a tensor of shape [4, 1] with each element having the value of 'bos'
-        init_condition = torch.full((4, 1), self.valid_dataset.bos_token)
-        #init_condition = [self.valid_dataset[i][0][:6] for i in range(4)]
-        #init_condition = torch.stack(init_condition) 
+        if self.args.ade_background is not None:
+            with open('ade20K_labels.json', 'r') as file:
+                ade_labels = json.load(file)
+            
+            # convert the background labels so that it can be used in the model
+            labels = [ade_labels[backgr_label] for backgr_label in ade20K_eval_background]
+            print(labels)
+            labels = [self.valid_dataset.shifted_label(label) for label in labels]
+            print(labels)
+            # Get the bos_token
+            bos_token = self.valid_dataset.bos_token
+            print(bos_token)
+
+            # get the bounding box for the background, which is fixed to cover the entire scene 
+            bounding_box = self.valid_dataset.background.flatten()
+            print(bounding_box)
+            print(self.valid_dataset.max_length)
+
+            # Create a tensor of shape [len(labels), 6]
+            init_condition = torch.stack([
+                torch.cat((torch.tensor([bos_token, label]), bounding_box))
+                for label in labels
+            ])
+            print(init_condition)
+
+        else:
+            # Create a tensor of shape [4, 1] with each element having the value of 'bos'
+            init_condition = torch.full((4, 1), self.valid_dataset.bos_token)
+            #init_condition = [self.valid_dataset[i][0][:6] for i in range(4)]
+            #init_condition = torch.stack(init_condition) 
         
 
         # samples - random
