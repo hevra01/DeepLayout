@@ -1,0 +1,381 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "dining room",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                65.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "floor",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                1.0019569396972656,
+                236.0,
+                64.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                170.3326873779297,
+                8.015655517578125,
+                340.0,
+                327.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                44.08610534667969,
+                185.0,
+                264.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "table",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                56.109588623046875,
+                55.0,
+                250.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                340.6653747558594,
+                58.113502502441406,
+                125.0,
+                169.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                368.72015380859375,
+                71.13894653320312,
+                96.0,
+                70.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "ceiling",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                197.38551330566406,
+                81.15851593017578,
+                137.0,
+                209.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "windowpane",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                205.4011688232422,
+                85.16634368896484,
+                65.0,
+                148.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "windowpane",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                288.5635986328125,
+                93.18199920654297,
+                22.0,
+                145.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "plant",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                185.36203002929688,
+                97.18982696533203,
+                20.0,
+                137.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chandelier",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                245.4794464111328,
+                187.36595153808594,
+                23.0,
+                36.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                245.4794464111328,
+                201.39334106445312,
+                20.0,
+                28.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "curtain",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                245.4794464111328,
+                206.40313720703125,
+                32.0,
+                28.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "door",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                245.4794464111328,
+                215.42074584960938,
+                42.0,
+                64.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                294.5753479003906,
+                217.42465209960938,
+                40.0,
+                190.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "sofa",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                130.25440979003906,
+                220.43052673339844,
+                63.0,
+                203.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                269.52642822265625,
+                230.45010375976562,
+                65.0,
+                204.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                192.375732421875,
+                233.45596313476562,
+                89.0,
+                215.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "lamp",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                97.18982696533203,
+                235.4598846435547,
+                297.0,
+                231.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "pot",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                406.7945251464844,
+                237.4637908935547,
+                89.0,
+                232.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                289.5655517578125,
+                240.46966552734375,
+                50.0,
+                28.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                1.0019569396972656,
+                247.48336791992188,
+                226.0,
+                263.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "plate",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                289.5655517578125,
+                250.48924255371094,
+                20.0,
+                15.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                240.46966552734375,
+                252.49314880371094,
+                36.0,
+                12.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                257.5029296875,
+                509.0,
+                252.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "napkin",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                223.4364013671875,
+                277.5420837402344,
+                37.0,
+                13.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "glass",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                345.6751403808594,
+                63.0,
+                23.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "glass",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                348.6810302734375,
+                25.0,
+                74.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "plate",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                460.90020751953125,
+                389.7612609863281,
+                50.0,
+                114.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "glass",
+            "certainties": 0.0
+        }
+    ]
+}

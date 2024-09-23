@@ -1,0 +1,381 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "airport terminal",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                201.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "floor",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                460.0,
+                186.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "ceiling",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                35.0684928894043,
+                96.0,
+                148.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                384.75146484375,
+                70.1369857788086,
+                8.0,
+                7.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                255.4990234375,
+                89.1741714477539,
+                255.0,
+                111.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                90.1761245727539,
+                27.0,
+                136.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                329.6438293457031,
+                101.1976547241211,
+                4.0,
+                2.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                264.5166320800781,
+                102.1996078491211,
+                41.0,
+                192.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                107.20939636230469,
+                183.0,
+                35.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                130.25440979003906,
+                162.0,
+                218.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                145.28375244140625,
+                510.0,
+                364.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "column",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                29.056751251220703,
+                146.2857208251953,
+                37.0,
+                8.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "signboard",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                169.33071899414062,
+                42.0,
+                27.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "ceiling",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                169.33071899414062,
+                18.0,
+                51.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                19.037181854248047,
+                169.33071899414062,
+                27.0,
+                189.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                19.037181854248047,
+                170.3326873779297,
+                24.0,
+                23.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                184.36007690429688,
+                21.0,
+                121.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                116.22700500488281,
+                187.36595153808594,
+                31.0,
+                108.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "railing",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                25.04892349243164,
+                191.373779296875,
+                27.0,
+                126.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                194.37965393066406,
+                511.0,
+                316.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                207.40509033203125,
+                9.0,
+                71.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                211.4129180908203,
+                95.0,
+                126.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "light",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                123.24070739746094,
+                216.42269897460938,
+                13.0,
+                71.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                83.16242980957031,
+                217.42465209960938,
+                15.0,
+                48.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "light",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                77.15068817138672,
+                219.42857360839844,
+                15.0,
+                48.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                227.44422912597656,
+                82.0,
+                56.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                229.44813537597656,
+                19.0,
+                58.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                242.4735870361328,
+                14.0,
+                47.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                289.5655517578125,
+                509.0,
+                220.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                84.16438293457031,
+                297.5812072753906,
+                18.0,
+                51.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "light",
+            "certainties": 0.0
+        }
+    ]
+}

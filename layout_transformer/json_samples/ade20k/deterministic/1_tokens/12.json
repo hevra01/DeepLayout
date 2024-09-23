@@ -1,0 +1,261 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "gym machine",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                509.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                204.0,
+                64.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "floor",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                112.21917724609375,
+                0.0,
+                175.0,
+                39.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "painting",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                230.45010375976562,
+                0.0,
+                168.0,
+                33.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "painting",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                356.6966857910156,
+                21.041095733642578,
+                140.0,
+                75.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "painting",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                222.4344482421875,
+                41.08023452758789,
+                176.0,
+                264.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "painting",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                60.11741638183594,
+                11.0,
+                34.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "painting",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                72.14089965820312,
+                73.0,
+                277.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "painting",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                361.7064514160156,
+                72.14089965820312,
+                47.0,
+                76.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "painting",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                265.5185852050781,
+                90.1761245727539,
+                24.0,
+                28.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "spotlight",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                161.3150634765625,
+                95.1859130859375,
+                45.0,
+                60.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "spotlight",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                207.40509033203125,
+                167.32681274414062,
+                38.0,
+                57.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "spotlight",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                105.20548248291016,
+                175.34246826171875,
+                22.0,
+                43.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "spotlight",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                139.2720184326172,
+                184.36007690429688,
+                50.0,
+                139.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "spotlight",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                139.2720184326172,
+                187.36595153808594,
+                22.0,
+                40.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "spotlight",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                38.074363708496094,
+                204.3992156982422,
+                19.0,
+                39.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "spotlight",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                130.25440979003906,
+                206.40313720703125,
+                17.0,
+                40.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "radiator",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                245.4794464111328,
+                42.0,
+                62.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "spotlight",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                130.25440979003906,
+                251.49119567871094,
+                21.0,
+                43.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "spotlight",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                287.5616455078125,
+                349.0,
+                223.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "spotlight",
+            "certainties": 0.0
+        }
+    ]
+}

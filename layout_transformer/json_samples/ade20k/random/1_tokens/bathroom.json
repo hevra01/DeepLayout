@@ -1,0 +1,107 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "bathroom"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                509.0,
+                103.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "mirror"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                6.011741638183594,
+                509.0,
+                91.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "countertop"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                54.105674743652344,
+                509.0,
+                257.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                158.3092041015625,
+                324.6340637207031,
+                351.0,
+                61.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "floor"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                330.6457824707031,
+                509.0,
+                179.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "ceiling"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                428.83758544921875,
+                509.0,
+                83.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "sink"
+            ],
+            "certainties": 0.0
+        }
+    ]
+}

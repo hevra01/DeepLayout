@@ -1,0 +1,333 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "gym machine",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                109.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "floor",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                1.0019569396972656,
+                58.113502502441406,
+                47.0,
+                280.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "ceiling",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                176.34442138671875,
+                86.16829681396484,
+                109.0,
+                277.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                51.09980392456055,
+                92.18003845214844,
+                137.0,
+                244.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                167.32681274414062,
+                97.18982696533203,
+                284.0,
+                211.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                376.7358093261719,
+                105.20548248291016,
+                133.0,
+                192.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "skylight",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                108.21134948730469,
+                153.29940795898438,
+                36.0,
+                177.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "column",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                456.8923645019531,
+                175.34246826171875,
+                53.0,
+                119.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "column",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                108.21134948730469,
+                182.35617065429688,
+                16.0,
+                139.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "column",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                229.44813537597656,
+                196.38356018066406,
+                11.0,
+                106.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "column",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                342.6692810058594,
+                199.38943481445312,
+                15.0,
+                132.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "column",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                177.34637451171875,
+                202.3953094482422,
+                10.0,
+                114.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "column",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                464.90802001953125,
+                203.3972625732422,
+                31.0,
+                83.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "column",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                292.5714416503906,
+                203.3972625732422,
+                17.0,
+                83.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "column",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                177.34637451171875,
+                221.43247985839844,
+                37.0,
+                83.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                229.44813537597656,
+                226.44227600097656,
+                30.0,
+                59.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "column",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                177.34637451171875,
+                241.47161865234375,
+                37.0,
+                59.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "column",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                382.74755859375,
+                268.52447509765625,
+                18.0,
+                71.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                464.90802001953125,
+                290.5675048828125,
+                46.0,
+                44.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "column",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                184.36007690429688,
+                310.6066589355469,
+                97.0,
+                39.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "column",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                351.6868896484375,
+                311.6086120605469,
+                22.0,
+                26.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "column",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                158.3092041015625,
+                315.6164245605469,
+                156.0,
+                41.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "column",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                234.4579315185547,
+                315.6164245605469,
+                95.0,
+                22.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "railing",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                204.3992156982422,
+                317.620361328125,
+                36.0,
+                21.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                351.6868896484375,
+                317.620361328125,
+                27.0,
+                7.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "lamp",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                319.624267578125,
+                509.0,
+                191.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        }
+    ]
+}

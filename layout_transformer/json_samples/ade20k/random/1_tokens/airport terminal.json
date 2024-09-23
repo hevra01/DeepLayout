@@ -1,0 +1,273 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "airport terminal"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                509.0,
+                185.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "floor"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                139.2720184326172,
+                508.0,
+                139.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "ceiling"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                209.40899658203125,
+                456.0,
+                55.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                223.4364013671875,
+                509.0,
+                286.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                235.4598846435547,
+                456.0,
+                54.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "cart"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                263.5146789550781,
+                247.48336791992188,
+                28.0,
+                31.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "footbridge"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                255.4990234375,
+                249.0,
+                125.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "seat"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                140.2739715576172,
+                261.5107727050781,
+                73.0,
+                28.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                112.21917724609375,
+                262.5127258300781,
+                74.0,
+                92.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "seat"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                263.5146789550781,
+                509.0,
+                246.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "cart"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                140.2739715576172,
+                265.5185852050781,
+                57.0,
+                88.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "seat"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                67.13111877441406,
+                305.59686279296875,
+                45.0,
+                74.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "unknown",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                140.2739715576172,
+                329.6438293457031,
+                54.0,
+                38.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "seat"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                84.16438293457031,
+                334.65362548828125,
+                45.0,
+                38.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                235.4598846435547,
+                371.72601318359375,
+                108.0,
+                100.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                17.033267974853516,
+                374.7319030761719,
+                39.0,
+                70.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "seat"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                14.027397155761719,
+                375.7338562011719,
+                89.0,
+                100.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "seat"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                14.027397155761719,
+                409.8003845214844,
+                83.0,
+                100.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "seat"
+            ],
+            "certainties": 0.0
+        }
+    ]
+}

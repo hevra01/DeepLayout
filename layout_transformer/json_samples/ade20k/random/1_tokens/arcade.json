@@ -1,0 +1,443 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "arcade"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                1.0019569396972656,
+                0.0,
+                508.0,
+                271.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "ceiling"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                13.025440216064453,
+                158.0,
+                474.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "sidewalk"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                128.25048828125,
+                177.34637451171875,
+                29.0,
+                148.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                189.36985778808594,
+                190.371826171875,
+                132.0,
+                14.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                470.9197692871094,
+                197.38551330566406,
+                39.0,
+                111.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "display window"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                192.375732421875,
+                210.4109649658203,
+                142.0,
+                86.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "tree"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                377.7377624511719,
+                216.42269897460938,
+                132.0,
+                111.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "tree"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                429.83953857421875,
+                216.42269897460938,
+                81.0,
+                132.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "display window"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                191.373779296875,
+                233.45596313476562,
+                109.0,
+                101.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "road"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                189.36985778808594,
+                235.4598846435547,
+                18.0,
+                21.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "tree"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                189.36985778808594,
+                235.4598846435547,
+                97.0,
+                18.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "tree"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                281.5498962402344,
+                242.4735870361328,
+                43.0,
+                18.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "tree"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                134.26223754882812,
+                249.48727416992188,
+                46.0,
+                9.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "tree"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                318.622314453125,
+                259.5068359375,
+                26.0,
+                18.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                190.371826171875,
+                260.5088195800781,
+                93.0,
+                14.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "grass"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                221.43247985839844,
+                260.5088195800781,
+                9.0,
+                40.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                273.53424072265625,
+                265.5185852050781,
+                48.0,
+                35.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "car"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                267.5224914550781,
+                183.0,
+                83.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "grass"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                69.1350326538086,
+                269.52642822265625,
+                45.0,
+                41.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "car"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                251.49119567871094,
+                271.53033447265625,
+                27.0,
+                40.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "tree"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                281.5498962402344,
+                271.53033447265625,
+                11.0,
+                30.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "tree"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                191.373779296875,
+                271.53033447265625,
+                125.0,
+                15.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "grass"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                249.48727416992188,
+                271.53033447265625,
+                41.0,
+                14.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "tree"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                251.49119567871094,
+                279.5459899902344,
+                25.0,
+                15.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                118.23091888427734,
+                283.5538024902344,
+                44.0,
+                14.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                1.0019569396972656,
+                284.5557861328125,
+                509.0,
+                225.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                202.3953094482422,
+                287.5616455078125,
+                32.0,
+                15.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                202.3953094482422,
+                290.5675048828125,
+                41.0,
+                16.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "car"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                260.5088195800781,
+                307.60076904296875,
+                15.0,
+                43.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "car"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                1.0019569396972656,
+                374.7319030761719,
+                127.0,
+                134.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "car"
+            ],
+            "certainties": 0.0
+        }
+    ]
+}

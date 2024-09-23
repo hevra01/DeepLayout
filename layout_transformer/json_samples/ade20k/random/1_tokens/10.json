@@ -1,0 +1,129 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "martial arts gym",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                509.0,
+                361.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                133.26026916503906,
+                1.0019569396972656,
+                213.0,
+                188.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "floor",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                2.0039138793945312,
+                75.0,
+                314.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "windowpane",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                2.0039138793945312,
+                4.0078277587890625,
+                77.0,
+                189.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "windowpane",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                209.40899658203125,
+                27.052837371826172,
+                59.0,
+                188.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                391.7651672363281,
+                27.052837371826172,
+                85.0,
+                189.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "windowpane",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                236.4618377685547,
+                66.12915802001953,
+                63.0,
+                157.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "windowpane",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                67.13111877441406,
+                225.4403076171875,
+                78.0,
+                165.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "windowpane",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                2.0039138793945312,
+                246.48141479492188,
+                509.0,
+                261.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "windowpane",
+            "certainties": 0.0
+        }
+    ]
+}

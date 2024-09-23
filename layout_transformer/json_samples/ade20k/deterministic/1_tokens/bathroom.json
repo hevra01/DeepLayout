@@ -1,0 +1,443 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "bathroom"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                275.0,
+                123.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "countertop"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                71.0,
+                300.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "sink"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                66.0,
+                176.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "mirror"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                133.26026916503906,
+                0.0,
+                157.0,
+                108.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "cabinet"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                160.3131103515625,
+                105.20548248291016,
+                120.0,
+                102.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "towel"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                139.2720184326172,
+                510.0,
+                370.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "towel"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                229.44813537597656,
+                247.48336791992188,
+                24.0,
+                52.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "towel"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                266.5205383300781,
+                250.48924255371094,
+                18.0,
+                49.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "towel"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                211.4129180908203,
+                252.49314880371094,
+                15.0,
+                35.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "towel"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                230.45010375976562,
+                254.4970703125,
+                14.0,
+                33.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "towel"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                230.45010375976562,
+                255.4990234375,
+                14.0,
+                33.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "towel"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                230.45010375976562,
+                270.52838134765625,
+                43.0,
+                59.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "towel"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                230.45010375976562,
+                272.53228759765625,
+                43.0,
+                38.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "towel"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                139.2720184326172,
+                283.5538024902344,
+                88.0,
+                67.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "towel"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                211.4129180908203,
+                290.5675048828125,
+                33.0,
+                35.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "bottle"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                139.2720184326172,
+                292.5714416503906,
+                88.0,
+                66.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "bottle"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                191.373779296875,
+                298.5831604003906,
+                33.0,
+                33.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "bottle"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                375.7338562011719,
+                300.58709716796875,
+                25.0,
+                36.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "bottle"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                277.5420837402344,
+                301.58905029296875,
+                48.0,
+                25.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "bottle"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                375.7338562011719,
+                316.618408203125,
+                39.0,
+                38.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "bottle"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                263.5146789550781,
+                318.622314453125,
+                30.0,
+                39.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "bottle"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                219.42857360839844,
+                319.624267578125,
+                51.0,
+                20.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "bottle"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                51.09980392456055,
+                326.6379699707031,
+                210.0,
+                103.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "bottle"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                51.09980392456055,
+                332.64971923828125,
+                102.0,
+                48.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "bottle"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                325.6360168457031,
+                351.6868896484375,
+                32.0,
+                25.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "bottle"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                1.0019569396972656,
+                364.71234130859375,
+                210.0,
+                137.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "bottle"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                18.03522491455078,
+                365.71429443359375,
+                41.0,
+                67.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "bottle"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                421.8238830566406,
+                375.7338562011719,
+                89.0,
+                124.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "bottle"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                99.19374084472656,
+                437.8551940917969,
+                138.0,
+                73.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "bottle"
+            ],
+            "certainties": 0.0
+        }
+    ]
+}

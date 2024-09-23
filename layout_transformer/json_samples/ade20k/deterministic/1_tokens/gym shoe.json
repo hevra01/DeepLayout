@@ -1,0 +1,443 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "gym shoe"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                509.0,
+                509.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                40.078277587890625,
+                0.0,
+                470.0,
+                117.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "ceiling"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                262.5127258300781,
+                0.0,
+                114.0,
+                39.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "gym shoe"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                368.72015380859375,
+                21.041095733642578,
+                52.0,
+                19.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "floor"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                327.6399230957031,
+                33.064579010009766,
+                52.0,
+                31.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "car"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                250.48924255371094,
+                65.12720489501953,
+                47.0,
+                37.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "car"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                250.48924255371094,
+                94.18395233154297,
+                47.0,
+                37.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "car"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                373.7299499511719,
+                95.1859130859375,
+                66.0,
+                27.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                373.7299499511719,
+                102.1996078491211,
+                50.0,
+                23.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                419.8199462890625,
+                104.20352172851562,
+                90.0,
+                38.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                419.8199462890625,
+                123.24070739746094,
+                90.0,
+                47.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                337.65948486328125,
+                127.24853515625,
+                37.0,
+                43.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                419.8199462890625,
+                134.26223754882812,
+                90.0,
+                77.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                419.8199462890625,
+                142.27789306640625,
+                91.0,
+                48.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                419.8199462890625,
+                146.2857208251953,
+                90.0,
+                67.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                419.8199462890625,
+                150.29354858398438,
+                91.0,
+                67.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                321.628173828125,
+                158.3092041015625,
+                61.0,
+                48.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                127.24853515625,
+                162.31703186035156,
+                48.0,
+                42.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                321.628173828125,
+                169.33071899414062,
+                70.0,
+                48.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                419.8199462890625,
+                218.42662048339844,
+                91.0,
+                67.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                195.38160705566406,
+                248.48532104492188,
+                74.0,
+                47.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                321.628173828125,
+                260.5088195800781,
+                47.0,
+                48.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                195.38160705566406,
+                264.5166320800781,
+                57.0,
+                48.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                419.8199462890625,
+                275.53814697265625,
+                57.0,
+                37.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                419.8199462890625,
+                285.5577392578125,
+                91.0,
+                61.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                321.628173828125,
+                290.5675048828125,
+                74.0,
+                52.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                444.868896484375,
+                294.5753479003906,
+                64.0,
+                76.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                444.868896484375,
+                295.5773010253906,
+                64.0,
+                56.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                444.868896484375,
+                352.6888427734375,
+                65.0,
+                84.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                321.628173828125,
+                399.78082275390625,
+                187.0,
+                110.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "book"
+            ],
+            "certainties": 0.0
+        }
+    ]
+}

@@ -1,0 +1,381 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "living room",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                90.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                193.377685546875,
+                0.0,
+                137.0,
+                140.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                230.45010375976562,
+                5.009784698486328,
+                281.0,
+                459.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "ceiling",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                5.009784698486328,
+                226.0,
+                366.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "floor",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                37.07240676879883,
+                251.0,
+                87.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "rug",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                6.011741638183594,
+                71.13894653320312,
+                78.0,
+                221.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "sofa",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                301.58905029296875,
+                92.18003845214844,
+                159.0,
+                57.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "sofa",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                65.12720489501953,
+                103.20156860351562,
+                72.0,
+                48.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "cabinet",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                353.6907958984375,
+                107.20939636230469,
+                114.0,
+                114.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "windowpane",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                413.8082275390625,
+                118.23091888427734,
+                53.0,
+                98.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "fan",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                246.48141479492188,
+                137.26809692382812,
+                13.0,
+                41.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "table",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                232.45401000976562,
+                159.3111572265625,
+                27.0,
+                58.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "painting",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                161.3150634765625,
+                23.0,
+                199.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                50.09784698486328,
+                172.3365936279297,
+                50.0,
+                73.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                268.52447509765625,
+                175.34246826171875,
+                23.0,
+                41.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "double door",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                1.0019569396972656,
+                177.34637451171875,
+                67.0,
+                31.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "armchair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                232.45401000976562,
+                188.36790466308594,
+                30.0,
+                59.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "painting",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                221.43247985839844,
+                19.0,
+                183.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "lamp",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                5.009784698486328,
+                242.4735870361328,
+                31.0,
+                45.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                301.58905029296875,
+                245.4794464111328,
+                134.0,
+                231.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "blind",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                23.04500961303711,
+                259.5068359375,
+                47.0,
+                127.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "windowpane",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                160.3131103515625,
+                280.5479431152344,
+                30.0,
+                73.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "blind",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                294.5753479003906,
+                280.5479431152344,
+                20.0,
+                27.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "blind",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                268.52447509765625,
+                285.5577392578125,
+                13.0,
+                54.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "plant",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                223.4364013671875,
+                292.5714416503906,
+                27.0,
+                40.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "cushion",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                446.872802734375,
+                300.58709716796875,
+                64.0,
+                79.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "figurine",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                464.90802001953125,
+                307.60076904296875,
+                47.0,
+                68.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "painting",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                1.0019569396972656,
+                327.6399230957031,
+                311.0,
+                182.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "cushion",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                192.375732421875,
+                330.6457824707031,
+                156.0,
+                137.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "painting",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                201.39334106445312,
+                346.6770935058594,
+                45.0,
+                28.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "pot",
+            "certainties": 0.0
+        }
+    ]
+}

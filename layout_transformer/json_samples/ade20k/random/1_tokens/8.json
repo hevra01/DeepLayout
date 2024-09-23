@@ -1,0 +1,381 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "classroom",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                1.0019569396972656,
+                509.0,
+                103.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "floor",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                412.8062744140625,
+                1.0019569396972656,
+                97.0,
+                41.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                26.050880432128906,
+                3.005870819091797,
+                71.0,
+                43.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "table",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                204.3992156982422,
+                3.005870819091797,
+                71.0,
+                39.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                265.5185852050781,
+                9.01761245727539,
+                104.0,
+                39.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "ceiling",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                1.0019569396972656,
+                9.01761245727539,
+                301.0,
+                226.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "table",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                191.373779296875,
+                13.025440216064453,
+                33.0,
+                68.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "table",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                398.77886962890625,
+                77.15068817138672,
+                112.0,
+                180.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "table",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                191.373779296875,
+                90.1761245727539,
+                37.0,
+                140.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                1.0019569396972656,
+                100.19569396972656,
+                120.0,
+                112.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                251.49119567871094,
+                105.20548248291016,
+                259.0,
+                258.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "table",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                219.42857360839844,
+                146.2857208251953,
+                76.0,
+                152.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                161.3150634765625,
+                180.3522491455078,
+                61.0,
+                114.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "windowpane",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                262.5127258300781,
+                199.38943481445312,
+                116.0,
+                82.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "table",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                77.15068817138672,
+                200.39138793945312,
+                132.0,
+                82.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "fluorescent",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                86.16829681396484,
+                205.4011688232422,
+                154.0,
+                64.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "cabinet",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                155.30332946777344,
+                241.47161865234375,
+                49.0,
+                116.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "door",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                245.4794464111328,
+                510.0,
+                264.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "cabinet",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                1.0019569396972656,
+                246.48141479492188,
+                234.0,
+                225.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                86.16829681396484,
+                248.48532104492188,
+                250.0,
+                178.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                86.16829681396484,
+                248.48532104492188,
+                127.0,
+                49.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                289.5655517578125,
+                260.5088195800781,
+                172.0,
+                135.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                2.0039138793945312,
+                264.5166320800781,
+                42.0,
+                67.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "poster",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                140.2739715576172,
+                285.5577392578125,
+                43.0,
+                137.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                178.3483428955078,
+                296.5792541503906,
+                63.0,
+                165.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                403.78863525390625,
+                297.5812072753906,
+                103.0,
+                107.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                395.7729797363281,
+                351.6868896484375,
+                113.0,
+                157.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "light",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                276.5401306152344,
+                353.6907958984375,
+                136.0,
+                156.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "poster",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                135.26419067382812,
+                354.6927490234375,
+                108.0,
+                147.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "light",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                397.77691650390625,
+                46.0,
+                113.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "chair",
+            "certainties": 0.0
+        }
+    ]
+}

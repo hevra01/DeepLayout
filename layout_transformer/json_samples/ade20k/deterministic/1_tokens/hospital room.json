@@ -1,0 +1,135 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "hospital room"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                511.0,
+                373.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                203.0,
+                385.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                238.46575927734375,
+                0.0,
+                271.0,
+                49.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                392.7671203613281,
+                32.0626220703125,
+                117.0,
+                197.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                238.46575927734375,
+                58.113502502441406,
+                173.0,
+                277.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                74.14481353759766,
+                193.0,
+                435.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                296.5792541503906,
+                166.32485961914062,
+                165.0,
+                337.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                112.21917724609375,
+                346.6770935058594,
+                397.0,
+                165.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        }
+    ]
+}

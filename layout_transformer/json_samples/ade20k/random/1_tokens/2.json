@@ -1,0 +1,165 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "airport airport",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                509.0,
+                335.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "sky",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                336.65753173828125,
+                219.0,
+                131.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "runway",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                214.41879272460938,
+                336.65753173828125,
+                7.0,
+                95.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "building",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                344.6731872558594,
+                338.66143798828125,
+                5.0,
+                67.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "airplane",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                464.90802001953125,
+                338.66143798828125,
+                31.0,
+                71.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "spotlights",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                276.5401306152344,
+                342.6692810058594,
+                25.0,
+                25.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "airplane",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                350.6849365234375,
+                509.0,
+                161.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "building",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                344.6731872558594,
+                352.6888427734375,
+                23.0,
+                23.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "car",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                268.52447509765625,
+                358.7005920410156,
+                49.0,
+                27.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "car",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                76.14872741699219,
+                368.72015380859375,
+                23.0,
+                23.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "car",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                214.41879272460938,
+                372.7279968261719,
+                21.0,
+                25.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "car",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                20.039138793945312,
+                380.74365234375,
+                19.0,
+                25.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "car",
+            "certainties": 0.0
+        }
+    ]
+}

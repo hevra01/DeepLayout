@@ -1,0 +1,443 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "martial arts gym"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "floor"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                39.0,
+                28.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "mat"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                45.08806228637695,
+                0.0,
+                61.0,
+                31.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                102.1996078491211,
+                0.0,
+                36.0,
+                39.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                153.29940795898438,
+                0.0,
+                51.0,
+                27.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                240.46966552734375,
+                0.0,
+                46.0,
+                27.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                305.59686279296875,
+                0.0,
+                26.0,
+                26.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                362.7084045410156,
+                8.015655517578125,
+                42.0,
+                65.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                388.7593078613281,
+                16.03131103515625,
+                26.0,
+                26.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                362.7084045410156,
+                22.043052673339844,
+                33.0,
+                19.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                25.04892349243164,
+                510.0,
+                484.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                286.5596923828125,
+                25.04892349243164,
+                28.0,
+                62.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                159.3111572265625,
+                34.06653594970703,
+                33.0,
+                38.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                286.5596923828125,
+                37.07240676879883,
+                28.0,
+                38.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                286.5596923828125,
+                34.06653594970703,
+                28.0,
+                38.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                211.4129180908203,
+                37.07240676879883,
+                31.0,
+                38.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                297.5812072753906,
+                44.08610534667969,
+                31.0,
+                39.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                331.6477355957031,
+                44.08610534667969,
+                33.0,
+                38.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                211.4129180908203,
+                44.08610534667969,
+                36.0,
+                61.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                367.71820068359375,
+                44.08610534667969,
+                43.0,
+                41.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                211.4129180908203,
+                66.12915802001953,
+                38.0,
+                68.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                297.5812072753906,
+                90.1761245727539,
+                48.0,
+                76.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                297.5812072753906,
+                92.18003845214844,
+                48.0,
+                84.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                251.49119567871094,
+                103.20156860351562,
+                38.0,
+                74.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                362.7084045410156,
+                116.22700500488281,
+                132.0,
+                156.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                362.7084045410156,
+                123.24070739746094,
+                63.0,
+                84.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                362.7084045410156,
+                123.24070739746094,
+                91.0,
+                164.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                418.8179931640625,
+                139.2720184326172,
+                59.0,
+                83.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                255.4990234375,
+                144.28179931640625,
+                76.0,
+                365.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                168.32876586914062,
+                510.0,
+                339.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "person"
+            ],
+            "certainties": 0.0
+        }
+    ]
+}

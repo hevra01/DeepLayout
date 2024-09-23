@@ -1,0 +1,443 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "kitchen"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                119.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                12.023483276367188,
+                252.0,
+                319.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "ceiling"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                167.32681274414062,
+                15.029354095458984,
+                28.0,
+                114.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "work surface"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                492.96282958984375,
+                36.07044982910156,
+                17.0,
+                455.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                367.71820068359375,
+                48.09393310546875,
+                100.0,
+                397.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "cabinet"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                251.49119567871094,
+                66.12915802001953,
+                48.0,
+                19.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                247.48336791992188,
+                96.1878662109375,
+                48.0,
+                13.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "cabinet"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                109.21331024169922,
+                101.1976547241211,
+                44.0,
+                300.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "refrigerator"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                247.48336791992188,
+                113.22113800048828,
+                214.0,
+                100.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                247.48336791992188,
+                142.27789306640625,
+                145.0,
+                117.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                175.34246826171875,
+                28.0,
+                332.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                17.033267974853516,
+                206.40313720703125,
+                31.0,
+                198.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "cabinet"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                39.07632064819336,
+                222.4344482421875,
+                16.0,
+                105.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "cabinet"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                39.07632064819336,
+                250.48924255371094,
+                18.0,
+                36.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                343.6712341308594,
+                250.48924255371094,
+                50.0,
+                109.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "cabinet"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                389.7612609863281,
+                272.53228759765625,
+                8.0,
+                31.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "heater"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                40.078277587890625,
+                280.5479431152344,
+                7.0,
+                21.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "sink"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                5.009784698486328,
+                281.5498962402344,
+                287.0,
+                70.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                352.6888427734375,
+                281.5498962402344,
+                71.0,
+                17.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "floor"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                352.6888427734375,
+                284.5557861328125,
+                71.0,
+                126.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "floor"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                405.7925720214844,
+                289.5655517578125,
+                8.0,
+                24.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "glass"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                405.7925720214844,
+                290.5675048828125,
+                8.0,
+                21.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "glass"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                131.25636291503906,
+                299.5851135253906,
+                7.0,
+                79.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "glass"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                290.5675048828125,
+                302.59100341796875,
+                80.0,
+                47.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "glass"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                131.25636291503906,
+                309.6047058105469,
+                7.0,
+                72.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "glass"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                290.5675048828125,
+                310.6066589355469,
+                220.0,
+                51.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "glass"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                103.20156860351562,
+                320.626220703125,
+                271.0,
+                190.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "glass"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                384.75146484375,
+                328.6418762207031,
+                20.0,
+                30.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "sconce"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                448.876708984375,
+                344.6731872558594,
+                60.0,
+                31.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "glass"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                440.8610534667969,
+                198.0,
+                70.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "light"
+            ],
+            "certainties": 0.0
+        }
+    ]
+}

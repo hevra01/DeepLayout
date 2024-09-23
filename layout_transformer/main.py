@@ -2,10 +2,11 @@ import os
 import argparse
 import torch
 from dataset import MNISTLayout, JSONLayout, ADE20KDataset
-from evaluator import Evaluate, EvalConfig
+from evaluator import Evaluate, EvalConfig, Evaluate_2
 from model import GPT, GPTConfig
 from trainer import Trainer, TrainerConfig
 from utils import set_seed
+from sample_cofig import SampleConfig
 
 
 if __name__ == "__main__":
@@ -20,6 +21,9 @@ if __name__ == "__main__":
     # COCO/PubLayNet options
     parser.add_argument("--train_json", default="./instances_train.json", help="/path/to/train/json")
     parser.add_argument("--val_json", default="./instances_val.json", help="/path/to/val/json")
+
+    # ade20K options
+    parser.add_argument("--ade_background", default="json", help="an ADE20K background category")
 
     # Layout options
     parser.add_argument("--max_length", type=int, default=128, help="batch size")
@@ -36,6 +40,7 @@ if __name__ == "__main__":
     parser.add_argument('--n_embd', default=512, type=int)
     parser.add_argument('--n_head', default=8, type=int)
     parser.add_argument('--evaluate', action='store_true', help="evaluate only")
+    parser.add_argument('--sample', action='store_true', help="sample only")    
     parser.add_argument('--lr_decay', action='store_true', help="use learning rate decay")
     parser.add_argument('--warmup_iters', type=int, default=0, help="linear lr warmup iters")
     parser.add_argument('--final_iters', type=int, default=0, help="cosine lr final iters")
@@ -61,24 +66,28 @@ if __name__ == "__main__":
     else:
         print("CUDA is not available, running on CPU.")
 
-    # MNIST Testing
-    if args.data_dir == "MNIST":
-        train_dataset = MNISTLayout(args.log_dir, train=True, threshold=args.threshold)
-        valid_dataset = MNISTLayout(args.log_dir, train=False, threshold=args.threshold,
-                                    max_length=train_dataset.max_length)
+    # check if we are doing sampling 
+    if not args.sample:
+        # MNIST Testing
+        if args.data_dir == "MNIST":
+            train_dataset = MNISTLayout(args.log_dir, train=True, threshold=args.threshold)
+            valid_dataset = MNISTLayout(args.log_dir, train=False, threshold=args.threshold,
+                                        max_length=train_dataset.max_length)
+        # ADE20K   
+        elif args.data_dir is not None:
+            train_dataset = ADE20KDataset(args.data_dir)
+            valid_dataset = ADE20KDataset(args.data_dir)
 
-    # ADE20K   
-    elif args.data_dir is not None:
-        train_dataset = ADE20KDataset(args.data_dir)
-        valid_dataset = ADE20KDataset(args.data_dir)
+        # COCO and PubLayNet
+        else:
+            train_dataset = JSONLayout(args.train_json)
+            valid_dataset = JSONLayout(args.val_json, max_length=train_dataset.max_length)
 
-    # COCO and PubLayNet
     else:
-        train_dataset = JSONLayout(args.train_json)
-        valid_dataset = JSONLayout(args.val_json, max_length=train_dataset.max_length)
+        sample_config = SampleConfig()
     
     # setup model
-    mconf = GPTConfig(train_dataset.vocab_size, train_dataset.max_length,
+    mconf = GPTConfig(sample_config.vocab_size, sample_config.max_length,
                       n_layer=args.n_layer, n_head=args.n_head, n_embd=args.n_embd)  # a GPT-1
     model = GPT(mconf)
 
@@ -97,6 +106,24 @@ if __name__ == "__main__":
         model.load_state_dict(torch.load(os.path.join(ckpt_dir, "checkpoint.pth"), map_location=device))
         
         evaluate = Evaluate(model, valid_dataset, evalconf, args)
+        evaluate.eval()
+
+    elif args.sample:
+        evalconf = EvalConfig(max_epochs=args.epochs,
+                                batch_size=args.batch_size,
+                                ckpt_dir=ckpt_dir,
+                                samples_dir=samples_dir,
+                                sample_every=args.sample_every)
+        
+        # Inference mode: load the checkpoint and perform sampling
+        if ckpt_dir is None:
+            raise ValueError("Please provide a checkpoint path for evaluation.")
+        
+        print(f"Loading model from checkpoint: {ckpt_dir}")
+        model.load_state_dict(torch.load(os.path.join(ckpt_dir, "checkpoint.pth"), map_location=device))
+
+        sample_config = SampleConfig()
+        evaluate = Evaluate_2(model, sample_config, evalconf, args)
         evaluate.eval()
 
 

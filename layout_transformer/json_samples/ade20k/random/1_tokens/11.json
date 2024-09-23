@@ -1,0 +1,261 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "gym shoe",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                150.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "earth",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                1.0019569396972656,
+                85.16634368896484,
+                52.0,
+                30.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "sky",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                283.5538024902344,
+                87.17025756835938,
+                227.0,
+                185.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "unknown",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                52.10176086425781,
+                117.22896575927734,
+                136.0,
+                57.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                398.77886962890625,
+                124.24266052246094,
+                112.0,
+                47.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                138.2700653076172,
+                510.0,
+                372.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                180.3522491455078,
+                145.28375244140625,
+                52.0,
+                38.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "streetcar",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                242.4735870361328,
+                152.29745483398438,
+                25.0,
+                32.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "container",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                455.8904113769531,
+                158.3092041015625,
+                55.0,
+                29.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "unknown",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                283.5538024902344,
+                161.3150634765625,
+                93.0,
+                143.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "earth",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                94.18395233154297,
+                174.34051513671875,
+                61.0,
+                98.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                419.8199462890625,
+                177.34637451171875,
+                55.0,
+                69.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "container",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                123.24070739746094,
+                188.36790466308594,
+                81.0,
+                103.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "earth",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                48.09393310546875,
+                194.37965393066406,
+                54.0,
+                138.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                445.870849609375,
+                200.39138793945312,
+                64.0,
+                42.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "truck",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                23.04500961303711,
+                204.3992156982422,
+                50.0,
+                98.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                211.4129180908203,
+                86.0,
+                298.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "container",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                123.24070739746094,
+                213.4168243408203,
+                174.0,
+                295.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                454.8884582519531,
+                230.45010375976562,
+                56.0,
+                148.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                1.0019569396972656,
+                292.5714416503906,
+                21.0,
+                88.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "person",
+            "certainties": 0.0
+        }
+    ]
+}

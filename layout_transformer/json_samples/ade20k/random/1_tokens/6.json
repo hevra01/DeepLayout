@@ -1,0 +1,129 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "bedroom",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                508.0,
+                97.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                12.023483276367188,
+                378.0,
+                341.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "floor",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                183.35812377929688,
+                67.13111877441406,
+                327.0,
+                314.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "ceiling",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                353.6907958984375,
+                190.371826171875,
+                61.0,
+                146.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "bed",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                463.90606689453125,
+                222.4344482421875,
+                47.0,
+                42.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "wall",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                276.5401306152344,
+                262.0,
+                234.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "rug",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                377.7377624511719,
+                284.5557861328125,
+                130.0,
+                112.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "table",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                235.4598846435547,
+                304.59490966796875,
+                114.0,
+                63.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "sofa",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                369.72210693359375,
+                509.0,
+                140.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "lamp",
+            "certainties": 0.0
+        }
+    ]
+}

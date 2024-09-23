@@ -44,9 +44,10 @@ def tensor_to_json(image_tensor, dataset, width=512, height=512):
         x, y, w, h = box[i]
 
         # check if category_id is within the range of COCO categories
-        if category_id in dataset.contiguous_category_id_to_json_id:
-            category_id = dataset.contiguous_category_id_to_json_id[category_id]
-            caption = dataset.categories[category_id]["name"]
+        if category_id in dataset.undo_shift:
+            category_id = dataset.undo_shift[category_id]
+            #caption = dataset.categories[category_id]["name"]
+            caption = [k for k, v in dataset.ade_labels.items() if v == category_id][0]
         else:
             caption = "unknown"
 
@@ -69,7 +70,7 @@ def tensor_to_json(image_tensor, dataset, width=512, height=512):
 
 
 # Function to convert all image tensors and save as JSON
-def process_all_images(tensors, dataset, output_dir):
+def process_all_images(tensors, dataset, ade20K_eval_background, output_dir):
     # Iterate over all image tensors
     for i, image_tensor in enumerate(tensors):
         # Process each image tensor and generate JSON

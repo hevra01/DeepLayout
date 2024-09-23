@@ -1,0 +1,81 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "airport airport",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                225.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "runway",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                217.42465209960938,
+                510.0,
+                46.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "sky",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                243.4755401611328,
+                510.0,
+                267.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "airplane",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                252.49314880371094,
+                124.0,
+                17.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "airplane",
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                102.1996078491211,
+                255.4990234375,
+                407.0,
+                254.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": "building",
+            "certainties": 0.0
+        }
+    ]
+}

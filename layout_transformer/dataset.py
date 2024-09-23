@@ -220,7 +220,6 @@ class ADE20KDataset(Dataset):
         # find the categories present in the data
         self.categories = self.get_categories(raw_dataset)
 
-
         self.colors = gen_colors(len(self.categories))
         
         # we are reserving vocab from 0 to self.size - 1 for the bounding boxes,

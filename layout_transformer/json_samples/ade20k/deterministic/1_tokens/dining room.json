@@ -1,0 +1,443 @@
+{
+    "full_prompt": "",
+    "caption": "",
+    "width": 512,
+    "height": 512,
+    "bg_prompt": "",
+    "annos": [
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "dining room"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                510.0,
+                510.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                0.0,
+                118.0,
+                108.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "wall"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                245.4794464111328,
+                0.0,
+                91.0,
+                149.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "floor"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                42.082191467285156,
+                414.0,
+                380.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "windowpane"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                480.9393310546875,
+                86.16829681396484,
+                30.0,
+                19.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "table"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                343.6712341308594,
+                94.18395233154297,
+                35.0,
+                250.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "chair"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                243.4755401611328,
+                118.23091888427734,
+                145.0,
+                118.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "chair"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                196.38356018066406,
+                142.27789306640625,
+                106.0,
+                107.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "chair"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                406.7945251464844,
+                161.3150634765625,
+                48.0,
+                108.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "lamp"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                177.34637451171875,
+                20.0,
+                104.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "curtain"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                337.65948486328125,
+                192.375732421875,
+                37.0,
+                108.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "hat"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                275.53814697265625,
+                201.39334106445312,
+                19.0,
+                19.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "hat"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                230.45010375976562,
+                205.4011688232422,
+                16.0,
+                42.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "painting"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                327.6399230957031,
+                224.4383544921875,
+                43.0,
+                60.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "mirror"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                196.38356018066406,
+                230.45010375976562,
+                28.0,
+                43.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "painting"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                327.6399230957031,
+                230.45010375976562,
+                19.0,
+                43.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "tray"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                302.59100341796875,
+                235.4598846435547,
+                19.0,
+                42.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "tray"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                192.375732421875,
+                242.4735870361328,
+                16.0,
+                39.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "tray"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                148.2896270751953,
+                244.4774932861328,
+                18.0,
+                35.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "tray"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                217.42465209960938,
+                245.4794464111328,
+                17.0,
+                35.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "chair"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                258.5048828125,
+                248.48532104492188,
+                19.0,
+                43.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "tray"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                192.375732421875,
+                255.4990234375,
+                18.0,
+                36.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "tray"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                217.42465209960938,
+                259.5068359375,
+                17.0,
+                39.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "chair"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                196.38356018066406,
+                260.5088195800781,
+                280.0,
+                249.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "chair"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                191.373779296875,
+                265.5185852050781,
+                20.0,
+                27.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "chair"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                217.42465209960938,
+                272.53228759765625,
+                21.0,
+                38.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "chair"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                191.373779296875,
+                295.5773010253906,
+                64.0,
+                52.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "vase"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                42.082191467285156,
+                305.59686279296875,
+                111.0,
+                51.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "glass"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                316.618408203125,
+                71.0,
+                194.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "glass"
+            ],
+            "certainties": 0.0
+        },
+        {
+            "bbox": [
+                0.0,
+                322.630126953125,
+                71.0,
+                62.0
+            ],
+            "mask": [],
+            "category_name": "",
+            "caption": [
+                "glass"
+            ],
+            "certainties": 0.0
+        }
+    ]
+}
