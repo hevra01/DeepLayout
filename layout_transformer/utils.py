@@ -1,5 +1,6 @@
 import os
 import random
+import time
 import numpy as np
 import torch
 from torch.nn import functional as F
@@ -42,6 +43,9 @@ def sample(model, x, steps, temperature=1.0, sample=False, top_k=None):
     """
     block_size = model.module.get_block_size() if hasattr(model, "module") else model.get_block_size()
     model.eval()
+
+    # Start timing the sampling process
+    start_time = time.time()   
     for k in range(steps):
         x_cond = x if x.size(1) <= block_size else x[:, -block_size:]  # crop context if needed
         logits, _ = model(x_cond)
@@ -59,6 +63,13 @@ def sample(model, x, steps, temperature=1.0, sample=False, top_k=None):
             _, ix = torch.topk(probs, k=1, dim=-1)
         # append to the sequence and continue
         x = torch.cat((x, ix), dim=1)
+
+    # End timing the sampling process
+    end_time = time.time()
+    
+    # Calculate and print elapsed time
+    elapsed_time = end_time - start_time
+    print(f"Sampling Time: {elapsed_time:.5f} seconds")
 
     return x
 
