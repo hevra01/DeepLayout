@@ -104,11 +104,14 @@ class Evaluate_2:
     
     def eval(self):
         self.model.eval()
-
+        global ade20K_eval_background  
+        ade20K_eval_background = [item for item in ade20K_eval_background for _ in range(30)]
+        
         if self.args.ade_background is not None:
             with open('ade20K_labels.json', 'r') as file:
                 ade_labels = json.load(file)
             
+
             # convert the background labels so that it can be used in the model
             labels = [ade_labels[backgr_label] for backgr_label in ade20K_eval_background]
            
